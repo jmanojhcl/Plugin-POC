@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="icon" style="fill:#fff;" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <defs/>
+  <rect id="_transparent_rectangle_" data-name="&lt;transparent rectangle&gt;" width="16" height="16" fill="none"/>
+  <path id="home" d="M15,6.74,8.32,1.12a.49.49,0,0,0-.64,0L1,6.74l.65.76L2,7.2V14a1,1,0,0,0,1,1H6a1,1,0,0,0,1-1V10H9v4a1,1,0,0,0,1,1h3a1,1,0,0,0,1-1V7.2l.35.3ZM13,14H10V10A1,1,0,0,0,9,9H7a1,1,0,0,0-1,1v4H3V6.36L8,2.15l5,4.21Z" style="fill: rgb(0, 0, 0);"/>
+</svg>

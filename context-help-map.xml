@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="devops-deploy" path="UCD/DevOps_Deploy.html"/>
+   <appContext helpID="devops-release" path="UCR/DevOps_Release.html"/>
+   <appContext helpID="devops-velocity" path="UCV/README.html"/>
+   <appContext helpID="hcl-appscan-enterprise-ase"
+               path="UCV/ucv-ext-appscan/README.html"/>
+   <appContext helpID="hcl-appscan-enterprise-ase---overview"
+               path="UCV/ucv-ext-appscan/overview.html"/>
+   <appContext helpID="hcl-appscan-enterprise-ase---usage"
+               path="UCV/ucv-ext-appscan/usage.html"/>
+   <appContext helpID="hcl-appscan-enterprise-ase---downloads"
+               path="UCV/ucv-ext-appscan/downloads.html"/>
+   <appContext helpID="devops-build" path="UCB/DevOps_Build.html"/>
+</map>

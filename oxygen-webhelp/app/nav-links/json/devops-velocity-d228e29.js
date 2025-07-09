@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"devops-velocity-d228e29":{"topics":[{"title":"HCL AppScan Enterprise (ASE)","href":"UCV\/ucv-ext-appscan\/README.html","attributes":{"data-id":"hcl-appscan-enterprise-ase"},"menu":{"hasChildren":false},"tocID":"hcl-appscan-enterprise-ase-d228e37","topics":[]}]}};
