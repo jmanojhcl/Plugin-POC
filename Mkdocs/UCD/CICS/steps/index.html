@@ -1,0 +1,3216 @@
+<!-- Elements added to main will be displayed on all pages -->
+<!--March2023-->
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A next-gen documentation site for HCLSoftware plugins.">
+      
+      
+      
+        <link rel="canonical" href="https://opensource.hcltechsw.com/product-name/UCD/CICS/steps/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>CICS TS - Process Steps - HCLSoftware plugins</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/style.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      <!--Jan2025-->
+<!-- OneTrust Cookies Consent Notice start for hcl-software.com -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="c65f43b5-068e-4e4b-80d3-bdc8c41cf93d" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for hcl-software.com -->
+
+<!--  Global site tag (gtag.js) - Google Analytics start -->
+<script src="https://www.googletagmanager.com/gtag/js?id=G-7LF0XY95M1" class="optanon-category-C0002-C0003-C0004-C0005"></script>
+<script type="text/plain" class="optanon-category-C0002-C0003-C0004-C0005">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169645537-2');
+  gtag('config', 'G-7LF0XY95M1');
+</script>
+ 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TNNFCCM');</script>
+  <!-- End Google Tag Manager -->
+  
+<!--  Global site tag (gtag.js) - Google Analytics end -->
+
+    
+    
+    
+  
+    <meta name="robots" content="index, follow" />
+  
+  <meta property="og:image" content="https://opensource.hcltechsw.com/digital-experience/site-thumbnail.png" />
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cics-ts-process-steps" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+<div>
+   <a href="https://www.hcltechsw.com/"> 
+  <img width="150" height="30" src="https://help.hcltechsw.com/assets/images/HCL_Software_Logo_White.svg" alt="HCL Logo" target="_blank"></a>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="dropdown">
+  <button class="dropbtn">Resources <i class="fa fa-caret-down"></i></button> 
+  <div class="dropdown-content">
+  <a href="https://support.hcltechsw.com" target="_blank">Customer Support</a>
+  <a href="https://hclsoftwareu.hcltechsw.com/" target="_blank">HCLSoftware U</a>
+  <a href="https://support.hcltechsw.com/community" target="_blank">Community Forums</a>
+
+</div>
+</div>
+  
+  <!-- Uncomment the following announcement if you need it -->
+  <!--
+ <div class="md-banner--feedback" style="display:inline">
+
+  <strong>We value your feedback on this site.</strong> Please report any issues you find <a class="announcement__link" href="https://github.com/HCL-TECH-SOFTWARE/digital-experience/issues">via Github</a>. 
+  
+  <div class="md-banner--feedback">Looking for v8.5 or v9.0? <a class="announcement__link"  href="https://help.hcltechsw.com/digital-experience/9.5/welcome_hcl_dx.html">Check the legacy Help Center.</a>
+</div>  
+</div>
+-->
+
+</div>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+  A newer version of this product documentation is available.
+  <a href="../../../.."> 
+    <strong>View the latest version.</strong>
+  </a>
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+          </aside>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="HCLSoftware plugins" class="md-header__button md-logo" aria-label="HCLSoftware plugins" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HCLSoftware plugins
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CICS TS - Process Steps
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/de/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    IBM-UCx-PLUGIN-DOCS
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../UCB/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Build
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Deploy
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../UCR/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Release
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../UCV/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Velocity
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../notices/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Notices
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="HCLSoftware plugins" class="md-nav__button md-logo" aria-label="HCLSoftware plugins" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    HCLSoftware plugins
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    IBM-UCx-PLUGIN-DOCS
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCB/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Build
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Build
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCB/AccuRev/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    AccuRev
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            AccuRev
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCB/AccuRev/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCB/AccuRev/usage.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCB/AccuRev/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Deploy
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Deploy
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Ant/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Ant
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Ant
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ant/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ant/steps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Steps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/Ant/usage.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ucv-ext-appscan/downloads.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCR/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Release
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Release
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCR/ucr-plugin-ansible/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Ansible
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Ansible
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCR/ucr-plugin-ansible/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCR/ucr-plugin-ansible/steps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Steps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCR/ucr-plugin-ansible/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCR/ucr-plugin-ansible/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCV/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Velocity
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Velocity
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCV/ucv-ext-appscan/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Appscan Enterprise
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Appscan Enterprise
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-appscan/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-appscan/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-appscan/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCV/ucv-ext-asoc/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Appscan on Cloud
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Appscan on Cloud
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-asoc/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-asoc/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-asoc/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCV/ucv-ext-azure/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Azure DevOps
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            Azure DevOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-azure/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-azure/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-azure/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../notices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Notices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#check-available-status-of-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check available status of resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-enable-status-of-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check enable status of resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-open-status-of-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check open status of resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-status-of-an-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check status of an application
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#close-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Close resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploy-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploy application
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploy-bundle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploy bundle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disable-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disable application
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disable-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disable resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discard-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discard resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enable-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enable application
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enable-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enable resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-bas-resource-descriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install BAS resource descriptions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-bas-resource-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install BAS resource groups
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-bas-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install BAS resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-csd-groups-or-lists" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install CSD groups or lists
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-csd-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install CSD resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-application-available" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make application available
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-application-unavailable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make application unavailable
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-resources-available" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make resources available
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-resources-unavailable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make resources unavailable
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#new-copy-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      New copy resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Open resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#phase-in-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Phase in resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scan-pipelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scan pipelines
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#undeploy-application" class="md-nav__link">
+    <span class="md-ellipsis">
+      Undeploy application
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#undeploy-bundles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Undeploy bundles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#output-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output properties
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview-of-output-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview of output properties
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-cicsresponseerrors-output-property" class="md-nav__link">
+    <span class="md-ellipsis">
+      The cics.response.errors output property
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-view-output-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to view output properties
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-cicsresponseerrors-in-a-post-processing-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Use cics.response.errors in a post-processing script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defining-and-deleting-resource-definitions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Defining and deleting resource definitions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#default-input-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Default input properties
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="cics-ts-process-steps">CICS TS - Process Steps</h1>
+<ul>
+<li><a href="#cics-ts---steps">CICS TS - Steps</a></li>
+<li><a href="#process-steps-in-the-cics-ts-plug-in">Process steps in the CICS TS plug-in</a><ul>
+<li><a href="#check-available-status-of-resources">Check available status of resources</a></li>
+<li><a href="#check-enable-status-of-resources">Check enable status of resources</a></li>
+<li><a href="#check-open-status-of-resources">Check open status of resources</a></li>
+<li><a href="#check-status-of-an-application">Check status of an application</a></li>
+<li><a href="#close-resources">Close resources</a></li>
+<li><a href="#deploy-application">Deploy application</a></li>
+<li><a href="#deploy-bundle">Deploy bundle</a></li>
+<li><a href="#disable-application">Disable application</a></li>
+<li><a href="#disable-resources">Disable resources</a></li>
+<li><a href="#discard-resources">Discard resources</a></li>
+<li><a href="#enable-application">Enable application</a></li>
+<li><a href="#enable-resources">Enable resources</a></li>
+<li><a href="#install-bas-resource-descriptions">Install BAS resource descriptions</a></li>
+<li><a href="#install-bas-resource-groups">Install BAS resource groups</a></li>
+<li><a href="#install-bas-resources">Install BAS resources</a></li>
+<li><a href="#install-csd-groups-or-lists">Install CSD groups or lists</a></li>
+<li><a href="#install-csd-resources">Install CSD resources</a></li>
+<li><a href="#make-application-available">Make application available</a></li>
+<li><a href="#make-application-unavailable">Make application unavailable</a></li>
+<li><a href="#make-resources-available">Make resources available</a></li>
+<li><a href="#make-resources-unavailable">Make resources unavailable</a></li>
+<li><a href="#new-copy-resources">New copy resources</a></li>
+<li><a href="#open-resources">Open resources</a></li>
+<li><a href="#phase-in-resources">Phase in resources</a></li>
+<li><a href="#scan-pipelines">Scan pipelines</a></li>
+<li><a href="#undeploy-application">Undeploy application</a></li>
+<li><a href="#undeploy-bundles">Undeploy bundles</a></li>
+<li><a href="#output-properties">Output properties</a></li>
+<li><a href="#overview-of-output-properties">Overview of output properties</a></li>
+<li><a href="#the-cicsresponseerrors-output-property">The cics.response.errors output property</a></li>
+<li><a href="#how-to-view-output-properties">How to view output properties</a></li>
+<li><a href="#use-cicsresponseerrors-in-a-post-processing-script">Use cics.response.errors in a post-processing script</a></li>
+<li><a href="#defining-and-deleting-resource-definitions">Defining and deleting resource definitions</a></li>
+<li><a href="#default-input-properties">Default input properties</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="check-available-status-of-resources">Check available status of resources</h2>
+<p>Check if installed resources are available or unavailable. Requires CICS TS V5.2 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Expected Status</td>
+<td>Enumeration:AVAILABLE, UNAVAILABLE</td>
+<td>The expecteds tatus.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:BUNDLE</td>
+<td>The type of resource to check.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Timeout (s)</td>
+<td>String</td>
+<td>The number of seconds to make retry attempts before a timeout occurs. The valid range is 0-1800, where 0 means no retry attempts are made. The default is 15 seconds</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="check-enable-status-of-resources">Check enable status of resources</h2>
+<p>Check if installed resources are enabled or disabled.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Expected Status</td>
+<td>Enumeration:DISABLED, ENABLED</td>
+<td>The expected status.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:ATOMSERV, BUNDLE, CMDT, DB2ENTRY, EPADAPT, EPADSET, EVNTBIND, EXTRATDQ, INTRATDQ, JVMSERV, LIBRARY, LOCFILE, LOCTRAN, PIPELINE, PROCTYP, PROGRAM, URIMAP</td>
+<td>The type of resource to check.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Timeout (s)</td>
+<td>String</td>
+<td>The number of seconds to make retry attempts before a timeout occurs. The valid range is 0-1800, where 0 means no retry attempts are made. The default is 15 seconds</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="check-open-status-of-resources">Check open status of resources</h2>
+<p>Check if installed resources are open or closed.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Expected Status</td>
+<td>Enumeration:CLOSED, OPEN</td>
+<td>The expected status.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:CMDT, EXTRATDQ, LOCFILE, TCPIPS</td>
+<td>The type of resource to check.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Timeout (s)</td>
+<td>String</td>
+<td>The number of seconds to make retry attempts before a timeout occurs. The valid range is 0-1800, where 0 means no retry attempts are made. The default is 15 seconds</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="check-status-of-an-application">Check status of an application</h2>
+<p>Check if an installed cloud enabled CICS application is available, unavailable, enabled, or disabled. Requires CICS TS V5.1 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application Definition</td>
+<td>String</td>
+<td>The name of the CICS application definition. The default value is <code>${p:cics.application.definition.name}</code>.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Application Version</td>
+<td>String</td>
+<td>The application version in major.minor.micro format (for example, 1.2.345). The default value is <code>${p:cics.application.version}</code>.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Expected Status</td>
+<td>Enumeration:AVAILABLE, DISABLED, ENABLED, UNAVAILABLE</td>
+<td>The expected status.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Timeout (s)</td>
+<td>String</td>
+<td>The number of seconds to make retry attempts before a timeout occurs. The valid range is 0-1800. Leave this field blank to not retry.</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="close-resources">Close resources</h2>
+<p>Close installed resources.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:CMDT, EXTRATDQ, LOCFILE, TCPIPS</td>
+<td>The type of resource to close.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="deploy-application">Deploy application</h2>
+<p>Deploy a cloud enabled CICS application. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application Binding Directory</td>
+<td>String</td>
+<td>The location of the CICS application binding project on zFS. The default value is <code>${p:cics.platform.home}</code>/bindings/<code>${p:cics.application.binding.directory}</code>.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Application Definition</td>
+<td>String</td>
+<td>The name of the CICS application definition. The default value is <code>${p:cics.application.definition.name}</code>.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Application Directory</td>
+<td>String</td>
+<td>The location of the CICS application project on zFS. The default value is <code>${p:cics.platform.home}</code>/applications/<code>${p:component.name}</code>_<code>${p:cics.application.version}</code>.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>String</td>
+<td>A description of the application definition. The default value is <code>${p:component.name}</code>.</td>
+<td>No</td>
+</tr>
+<tr>
+<td>State</td>
+<td>Enumeration:AVAILABLE, DISABLED, ENABLED</td>
+<td>The target state of the application.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Timeout (s)</td>
+<td>String</td>
+<td>The number of seconds to make retry attempts before a timeout occurs. The valid range is 1-1800. The default value is 300.</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="deploy-bundle">Deploy bundle</h2>
+<p>Deploy a CICS bundle. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bundle Directory</td>
+<td>String</td>
+<td>The location of the CICS bundle on zFS.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Bundle Name</td>
+<td>String</td>
+<td>The name of the CICS bundle.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>String</td>
+<td>A description of the resource definition.</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Group Name</td>
+<td>String</td>
+<td>The name of the resource definition group.</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Resource Definition</td>
+<td>Enumeration:BAS, CSD, NONE</td>
+<td>The location in which to create the resource definition. You can also choose not to define the resource.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>State</td>
+<td>Enumeration:AVAILABLE, DISABLED, ENABLED</td>
+<td>The target state of the bundle.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Timeout (s)</td>
+<td>String</td>
+<td>The number of seconds to wait for the bundle to deploy before a timeout occurs. Further processing of the bundle by CICS might occur after the timeout. The valid range is 1-1800. The default value is 300.</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="disable-application">Disable application</h2>
+<p>Disable an installed cloud enabled CICS application. Requires CICS TS V5.1 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application Definition</td>
+<td>String</td>
+<td>The name of the CICS application definition. The default value is <code>${p:cics.application.definition.name}</code>.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Application Version</td>
+<td>String</td>
+<td>The application version in major.minor.micro format (for example, 1.2.345). The default value is <code>${p:cics.application.version}</code>.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="disable-resources">Disable resources</h2>
+<p>Disable installed resources.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:ATOMSERV, BUNDLE, CMDT, DB2ENTRY, EPADAPT, EPADSET, EVNTBIND, EXTRATDQ, INTRATDQ, JVMSERV, LIBRARY, LOCFILE, LOCTRAN, PIPELINE, PROCTYP, PROGRAM, URIMAP</td>
+<td>The type of resource to disable.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="discard-resources">Discard resources</h2>
+<p>Discard installed resources.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:ATOMSERV, BUNDLE, CMDT, CONNECT, DB2CONN, DB2ENTRY, DB2TRN, DOCTEMP, EXTRATDQ, INDTDQ, INTRATDQ, IPCONN, JRNLMODL, JRNLNAME, JVMSERV, LIBRARY, LOCFILE, LOCTRAN, MQCON, PIPELINE, PROCTYP, PROGRAM, REMFILE, REMTDQ, TCPIPS, TERMNL, TRANCLAS, TSMODEL, URIMAP, WEBSERV</td>
+<td>The type of resource to discard.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="enable-application">Enable application</h2>
+<p>Enable an installed cloud enabled CICS application. Requires CICS TS V5.1 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application Definition</td>
+<td>String</td>
+<td>The name of the CICS application definition. The default value is <code>${p:cics.application.definition.name}</code>.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Application Version</td>
+<td>String</td>
+<td>The application version in major.minor.micro format (for example, 1.2.345). The default value is <code>${p:cics.application.version}</code>.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="enable-resources">Enable resources</h2>
+<p>Enable installed resources.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:ATOMSERV, BUNDLE, CMDT, DB2ENTRY, EPADAPT, EPADSET, EVNTBIND, EXTRATDQ, INTRATDQ, JVMSERV, LIBRARY, LOCFILE, LOCTRAN, PIPELINE, PROCTYP, PROGRAM, URIMAP</td>
+<td>The type of resource to enable.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="install-bas-resource-descriptions">Install BAS resource descriptions</h2>
+<p>Install resource descriptions from the CICSPlex SM data repository using BAS.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource Description List</td>
+<td>String</td>
+<td>A comma-separated list of resource description names.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="install-bas-resource-groups">Install BAS resource groups</h2>
+<p>Install resource groups from the CICSPlex SM data repository using BAS.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource Group List</td>
+<td>String</td>
+<td>A comma-separated list of resource group names.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="install-bas-resources">Install BAS resources</h2>
+<p>Install resource definitions from the CICSPlex SM data repository using BAS.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:ATOMDEF, BUNDDEF, DB2CDEF, DB2EDEF, DB2TDEF, DOCDEF, EJCODEF, EJDJDEF, ENQMDEF, FILEDEF, IPCONDEF, JRNMDEF, JVMSVDEF, LIBDEF, LSRDEF, MAPDEF, MQCONDEF, PARTDEF, PIPEDEF, PROCDEF, PROFDEF, PROGDEF, PRTNDEF, RQMDEF, TCPDEF, TDQDEF, TERMDEF, TRANDEF, TRNCLDEF, TSMDEF, TYPTMDEF, URIMPDEF, WEBSVDEF</td>
+<td>The type of resource to install.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Version</td>
+<td>String</td>
+<td>The version of the resource to install. The default value is 1.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="install-csd-groups-or-lists">Install CSD groups or lists</h2>
+<p>Install resources contained in groups or lists from the CSD.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Group or List</td>
+<td>Enumeration:CSDGROUP, CSDLIST</td>
+<td>Specify whether to install from a CSD group or list.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Group or List Name</td>
+<td>String</td>
+<td>A comma-separated list of CSD groups or lists.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="install-csd-resources">Install CSD resources</h2>
+<p>Install resources from the CSD.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Group Name</td>
+<td>String</td>
+<td>The name of the group that the resource or resources belong to.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:ATOMDEF, BUNDDEF, DB2CDEF, DB2EDEF, DB2TDEF, DOCDEF, EJCODEF, EJDJDEF, ENQMDEF, FILEDEF, IPCONDEF, JRNMDEF, JVMSVDEF, LIBDEF, LSRDEF, MAPDEF, MQCONDEF, PARTDEF, PIPEDEF, PROCDEF, PROFDEF, PROGDEF, PRTNDEF, RQMDEF, TCPDEF, TDQDEF, TERMDEF, TRANDEF, TRNCLDEF, TSMDEF, TYPTMDEF, URIMPDEF, WEBSVDEF</td>
+<td>The type of resource to install.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="make-application-available">Make application available</h2>
+<p>Make an installed cloud enabled CICS application available. Requires CICS TS V5.2 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application Definition</td>
+<td>String</td>
+<td>The name of the CICS application definition. The default value is <code>${p:cics.application.definition.name}</code>.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Application Version</td>
+<td>String</td>
+<td>The application version in major.minor.micro format (for example, 1.2.345). The default value is <code>${p:cics.application.version}</code>.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="make-application-unavailable">Make application unavailable</h2>
+<p>Make an installed cloud enabled CICS application unavailable. Requires CICS TS V5.2 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application Definition</td>
+<td>String</td>
+<td>The name of the CICS application definition. The default value is <code>${p:cics.application.definition.name}</code>.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Application Version</td>
+<td>String</td>
+<td>The application version in major.minor.micro format (for example, 1.2.345). The default value is <code>${p:cics.application.version}</code>.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="make-resources-available">Make resources available</h2>
+<p>Make installed bundle resources available. Requires CICS TS V5.2 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:BUNDLE</td>
+<td>The type of resource to make available.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="make-resources-unavailable">Make resources unavailable</h2>
+<p>Make installed bundle resources unavailable. Requires CICS TS V5.2 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:BUNDLE</td>
+<td>The type of resource to make unavailable.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="new-copy-resources">New copy resources</h2>
+<p>New copy installed program or doc template resources.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Max Retry Times</td>
+<td>String</td>
+<td>The maximum number of times to retry a new copy of the resource. A retry occurs when the new copy fails.</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:DOCTEMP, PROGRAM</td>
+<td>The type of resource to new copy.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Retry Interval (s)</td>
+<td>String</td>
+<td>The number of seconds to wait before retrying a new copy of the resource.</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="open-resources">Open resources</h2>
+<p>Open installed resources.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:CMDT, EXTRATDQ, LOCFILE, TCPIPS</td>
+<td>The type of resource to open.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="phase-in-resources">Phase in resources</h2>
+<p>Phase in installed program or bundle resources. Phase in for a bundle resource type requires CICS TS V5.3 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource Name List</td>
+<td>String</td>
+<td>A comma-separated list of resource names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Resource Type</td>
+<td>Enumeration:BUNDLE, PROGRAM</td>
+<td>The type of resource to phase in.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="scan-pipelines">Scan pipelines</h2>
+<p>Scan installed pipeline resources.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pipeline List</td>
+<td>String</td>
+<td>A comma-separated list of pipelines.</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="undeploy-application">Undeploy application</h2>
+<p>Undeploy a cloud enabled CICS application. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application Definition</td>
+<td>String</td>
+<td>The name of the CICS application definition. The default value is {p:cics.application.definition.name}``.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Application Version</td>
+<td>String</td>
+<td>The application version in major.minor.micro format (for example, 1.2.345). The default value is <code>${p:cics.application.version}</code>.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>State</td>
+<td>Enumeration:DISABLED, DISCARDED, UNAVAILABLE</td>
+<td>The target state of the application.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Timeout (s)</td>
+<td>String</td>
+<td>The number of seconds to make retry attempts before a timeout occurs. The valid range is 1-1800. The default value is 300.</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="undeploy-bundles">Undeploy bundles</h2>
+<p>Undeploy CICS bundles. Requires CICS TS V5.1 or V5.2 with APAR PI56706, or V5.3 or later.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bundle Name List</td>
+<td>String</td>
+<td>A comma-separated list of bundle names.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Group Name</td>
+<td>String</td>
+<td>When the target state is Discarded, enter the name of the resource definition group in which the bundle is defined.</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Resource Definition</td>
+<td>Enumeration:BAS, CSD, NOT</td>
+<td>When target state is Discarded, choose the location of the resource definition to delete. You can also choose to NOT delete the resource definition. The default action is to delete the resource in CSD.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>State</td>
+<td>Enumeration:DISABLED, DISCARDED, UNAVAILABLE</td>
+<td>The target state of the bundle.</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Timeout (s)</td>
+<td>String</td>
+<td>The number of seconds to wait for each bundle to undeploy before a timeout occurs. Further processing of a bundle by CICS might occur after the timeout. The valid range is 1-1800. The default value is 300.</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="output-properties">Output properties</h2>
+<ul>
+<li><a href="#overview-of-output-properties">Overview of output properties</a></li>
+<li><a href="#the-cicsresponseerrors-output-property">The cics.response.errors property</a></li>
+<li><a href="#how-to-view-output-properties">How to view output properties</a></li>
+<li><a href="#use-cicsresponseerrors-in-a-post-processing-script">Use cics.response.errors in a post-processing script</a></li>
+</ul>
+<h2 id="overview-of-output-properties">Overview of output properties</h2>
+<p>A step in DevOps Deploy is able to return output properties. These can be used in the step post-processing script and to pass information between steps. For an example workflow using output properties, see <a href="http://www.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/ud_properties_overview.html" title="Properties">Properties</a> in the DevOps Deploy documentation.</p>
+<h2 id="the-cicsresponseerrors-output-property">The cics.response.errors output property</h2>
+<p>If the CICS TS plug-in step fails (because CICS returns an error, for example) the step returns the cics.response.errors output property.</p>
+<p>This property value consists ofa JSON document of error codes, one set for each resource in the resource list.The following elements are returned to the JSON document:</p>
+<table>
+<thead>
+<tr>
+<th>Element name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>action</td>
+<td>The action performed by the step.</td>
+</tr>
+<tr>
+<td>resourceName</td>
+<td>The name of the CICS resource.</td>
+</tr>
+<tr>
+<td>resourceType</td>
+<td>The type of CICS resource.</td>
+</tr>
+<tr>
+<td>responseName</td>
+<td>The plain text translation of the response code.</td>
+</tr>
+<tr>
+<td>reasonName</td>
+<td>The plain text translation of the reason code.</td>
+</tr>
+<tr>
+<td>attribute</td>
+<td>The name of the attribute that is in error.</td>
+</tr>
+<tr>
+<td>errorCode</td>
+<td>The CICSPlex SM error code associated with the resource.</td>
+</tr>
+<tr>
+<td>resp1Name</td>
+<td>The plain text equivalent of the resp value.</td>
+</tr>
+<tr>
+<td>resp2</td>
+<td>The CICS RESP2 code or the CICSPlex SM API EYUDA reason code as a numeric value.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-to-view-output-properties">How to view output properties</h2>
+<p>You can view a steps output properties in the <strong>Log</strong> tab of the <strong>Process Request</strong> window.Next to the desired step name, click on the <strong>Input/Output</strong> <strong>properties</strong> icon. In the popup that follows, click <strong>View Output Properties</strong>.</p>
+<p><img alt="Image showing the location output properties in the Process Request window" src="../media/hover_properties.png?resize=318%2C112" /></p>
+<p>Image showing the location output properties in the Process Request window
+The following is a sample of the cics.response.errors output when NEWCOPY fails with a NODATA error:</p>
+<div class="highlight"><pre><span></span><code>[{&quot;action&quot;:&quot;NEWCOPY&quot;,&quot;attribute&quot;:&quot;&quot;,&quot;errorCode&quot;:&quot;&quot;,&quot;reasonName&quot;:&quot;&quot;,&quot;resourceName&quot;:&quot;NOTEXIST&quot;,&quot;resourceType&quot;:&quot;PROGRAM&quot;,&quot;resp1Name&quot;:&quot;&quot;,&quot;resp2&quot;:&quot;&quot;,&quot;responseName&quot;:&quot;NODATA&quot;}``]
+</code></pre></div>
+<h2 id="use-cicsresponseerrors-in-a-post-processing-script">Use cics.response.errors in a post-processing script</h2>
+<p>You can configure a post-processing script to run after a step finishes. Post-processing scripts can be used to ensure that the expected results occurred, and to pass properties between steps. For more information on using and storing reusable post-processing scripts, see the <a href="https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=processes-component#intro_component_processes">Post-processing scripts</a> section of the Urban Code Deploy documentation.</p>
+<p>The following is a usage example of a post-processing script for the <em>New copy resources</em> step in the CICS TS plug-in:</p>
+<p>The <strong>New copy resources</strong> step instructs CICS to reload the resource the next time it is requested. The step fails in CICS with a NODATA response if the resource was not already installed, however in most cases, this failure can be ignored as CICS will automatically load the resource when it is next used.</p>
+<p>The following script analyses the cics.response.errors output property and providing the only errors are NODATA, will change the step to be successful:</p>
+<div class="highlight"><pre><span></span><code><span class="kd">var</span><span class="w"> </span><span class="nx">exit</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">properties</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;exitCode&#39;</span><span class="p">);</span>
+<span class="nx">commandOut</span><span class="p">.</span><span class="nx">println</span><span class="p">(</span><span class="s2">&quot;Running the post-processing script.&quot;</span><span class="p">);</span>
+<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">exit</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mf">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">commandOut</span><span class="p">.</span><span class="nx">println</span><span class="p">(</span><span class="s2">&quot;The main step passed.&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">properties</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="s1">&#39;Status&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;Success&#39;</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="sb">``</span>
+<span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">commandOut</span><span class="p">.</span><span class="nx">println</span><span class="p">(</span><span class="s2">&quot;The main step failed. Analysing its errors...&quot;</span><span class="p">);</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">responseErrors</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">properties</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;cics.response.errors&quot;</span><span class="p">));</span>
+<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">responseErrors</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">responseErrors</span><span class="p">.</span><span class="nx">length</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mf">0</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">var</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">responseErrors</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span><span class="w"> </span><span class="nx">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">commandOut</span><span class="p">.</span><span class="nx">println</span><span class="p">(</span><span class="s2">&quot;Analysing result with response name &#39;&quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">responseErrors</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">responseName</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s2">&quot;&#39;.&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">responseErrors</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">responseName</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="s2">&quot;NODATA&quot;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">          </span><span class="nx">commandOut</span><span class="p">.</span><span class="nx">println</span><span class="p">(</span><span class="s2">&quot;Breaking early.&quot;</span><span class="p">);</span>
+<span class="w">          </span><span class="k">break</span><span class="p">;</span>
+<span class="w">        </span><span class="p">}</span>
+<span class="w">        </span><span class="sb">``</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">      </span><span class="sb">``</span>
+<span class="w">      </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">responseErrors</span><span class="p">.</span><span class="nx">length</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mf">0</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">i</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="nx">responseErrors</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">commandOut</span><span class="p">.</span><span class="nx">println</span><span class="p">(</span><span class="s2">&quot;All errors were NODATA. The step will succeed.&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="nx">properties</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="s2">&quot;Status&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Success&quot;</span><span class="p">);</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">      </span><span class="sb">``</span>
+<span class="w">      </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">commandOut</span><span class="p">.</span><span class="nx">println</span><span class="p">(</span><span class="s2">&quot;Not all errors were NODATA. The step will be failed.&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="nx">properties</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="s2">&quot;Status&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Failure&quot;</span><span class="p">);</span>
+<span class="w">      </span><span class="p">}</span>
+<span class="w">      </span><span class="sb">``</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="sb">``</span>
+<span class="w">    </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nx">commandOut</span><span class="p">.</span><span class="nx">println</span><span class="p">(</span><span class="s2">&quot;No error records found. The step will be failed.&quot;</span><span class="p">);</span>
+<span class="w">      </span><span class="nx">properties</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="s2">&quot;Status&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Failure&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="w">    </span><span class="sb">``</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="sb">``</span>
+<span class="w">  </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">commandOut</span><span class="p">.</span><span class="nx">println</span><span class="p">(</span><span class="s2">&quot;No CICS response errors found!&quot;</span><span class="p">)</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="sb">``</span>
+<span class="p">}</span>
+<span class="sb">``</span>
+</code></pre></div>
+<h2 id="defining-and-deleting-resource-definitions">Defining and deleting resource definitions</h2>
+<p>Using the <a href="https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/" title="z/OS Utility plug-in">z/OS Utility plug-in</a> <strong>Submit Job</strong> step you can perform the following actions in CICS:</p>
+<ul>
+<li>Run DFHCSDUP to define or delete resource definitions in the CSD.</li>
+<li>Run EYU9XDBT to define or delete resource definitions in the CPSM data repository.</li>
+</ul>
+<p>In the following example, DFHCSDUP is run with replace tokens @CICSHLQ@,@CSD@, and @CSDUPDATE@.</p>
+<p><img alt="Image showing the Submit Job step configured to define some CICS resources" src="../media/define-delete-screen2.png?resize=587%2C447" /></p>
+<p>Image showing the Submit Job step configured to define some CICS resources
+<strong>Replace tokens</strong> allow you to customize values in your JCL templates, in order to use the same JCL in different deployment scenarios.</p>
+<p>For example, a token such as <em>@CSD@</em> can be linked to a matching DevOps Deploy property, <em>cics.jcl.csd</em>. This property is then assigned a value, such as <em>CICSTS53.CICS.DFHCSD</em>, which can be set at the environment level, or wherever is most suitable.</p>
+<p>For more details on the <strong>Submit Job</strong> and <strong>Wait For Job</strong> steps, see the Steps page for the <a href="https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-deploy/">z/OS Utility plug-in</a>.</p>
+<h2 id="default-input-properties">Default input properties</h2>
+<p>The following properties are present on all CICS TS plug-in steps. You can view them on any step configuration page by selecting the <strong>Show Hidden Properties</strong> check box.</p>
+<p>These properties are typically environment or component-specific. To reduce manual configuration, you can define properties at an application, environment, or resource level.</p>
+<p>For an example of how to set up a CICS installation as an DevOps Deploy resource, see the <em>Setting up resources for simple management of properties</em> on the Usage page. More information on usage of properties, see the <a href="http://www-01.ibm.com/support/knowledgecenter/SS4GSP_7.2.0/com.ibm.udeploy.doc/topics/ud_properties_overview.html">Properties</a> topic in the DevOps Deploy documentation.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Default value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Host</td>
+<td><code>${p:cics.host}</code></td>
+<td>The host name of the CICS region to connect to.</td>
+</tr>
+<tr>
+<td>Port</td>
+<td><code>${p:cics.cmciport}</code></td>
+<td>The CMCI port to connect to.</td>
+</tr>
+<tr>
+<td>CICSplex</td>
+<td><code>${p?:cics.cicsplex}</code></td>
+<td>The name of the the CICSplex (defined set of CICS Systems) to connect to.</td>
+</tr>
+<tr>
+<td>Scope</td>
+<td><code>${p?:cics.scope}</code></td>
+<td>The name of the Scope to connect to. The scope can be a CICSplex, a CICS system, a CICS system group, or any set of CICS resources that are defined as a logical scope.</td>
+</tr>
+<tr>
+<td>Username</td>
+<td><code>${p?:cics.username}</code></td>
+<td>The username for connecting to CICS.</td>
+</tr>
+<tr>
+<td>Password</td>
+<td><code>${p?:cics.password}</code></td>
+<td>The password for connecting to CICS.</td>
+</tr>
+<tr>
+<td>Enable SSL</td>
+<td><code>${p?:cics.ssl}</code></td>
+<td>Whether to enable SSL connection to CICS. When set to true, this enables SSL connection to CICS. By default, SSL is disabled.</td>
+</tr>
+<tr>
+<td>Keystore Location</td>
+<td><code>${p?:cics.kslocation}</code></td>
+<td>The location of the keystore that is used to provide credentials for client-certificate authentication, if SSL is enabled.</td>
+</tr>
+<tr>
+<td>Keystore Type</td>
+<td><code>${p?:cics.kstype}</code></td>
+<td>The type of the keystore that provides credentials for client-certificate authentication, if SSL is enabled. If unspecified, the agents default Java keystore type is used. For keys contained in RACF keyrings, use JCERACFKS when the keys are stored in software, or JCECCARACFKS when the keys are stored in hardware with ICSF.</td>
+</tr>
+<tr>
+<td>Keystore Password</td>
+<td><code>${p?:cics.kspassword}</code></td>
+<td>The password of the keystore that provides credentials for client-certificate authentication, if SSL is enabled. For keys contained in RACF keyrings, leave this value empty.</td>
+</tr>
+<tr>
+<td>Truststore Location</td>
+<td><code>${p?:cics.tslocation}</code></td>
+<td>The location of the truststore that verifies credentials, if SSL is enabled.</td>
+</tr>
+<tr>
+<td>Truststore Type</td>
+<td><code>${p?:cics.tstype}</code></td>
+<td>The type of the truststore that verifies credentials, if SSL is enabled. If unspecified, uses the agents default Java keystore type. For certificates contained in RACF keyrings, use JCERACFKS when the certificates are stored in software, or JCECCARACFKS when the certificates are stored in hardware with ICSF.</td>
+</tr>
+<tr>
+<td>Truststore Password</td>
+<td><code>${p?:cics.tspassword}</code></td>
+<td>The password of the truststore that verifies credentials, if SSL is enabled. For certificates contained in RACF keyrings, leave this value empty.</td>
+</tr>
+</tbody>
+</table>
+<p>-For files in zFS, use a hierarchical file path such as</p>
+<div class="highlight"><pre><span></span><code>/u/myuser/keystore.jks
+</code></pre></div>
+<p>or</p>
+<div class="highlight"><pre><span></span><code>file:///u/myuser/keystore.jks
+</code></pre></div>
+<p>-For keys contained in RACF keyrings that are stored in software, use a URL in the format</p>
+<div class="highlight"><pre><span></span><code>safkeyring:///&lt;keyring<span class="w"> </span>name&gt;
+</code></pre></div>
+<p>-For keys contained in RACF keyrings that are stored in hardware with ICSF, use</p>
+<div class="highlight"><pre><span></span><code>safkeyringhw:///&lt;keyring<span class="w"> </span>name&gt;
+</code></pre></div>
+<p>-For files in zFS, use a hierarchical file path such as</p>
+<div class="highlight"><pre><span></span><code>/u/myuser/truststore.jks
+</code></pre></div>
+<p>or</p>
+<div class="highlight"><pre><span></span><code>file:///u/myuser/truststore.jks
+</code></pre></div>
+<p>-For certificates contained in RACF keyrings that are stored in software, use a URL in the format</p>
+<div class="highlight"><pre><span></span><code>safkeyring:///&lt;keyring<span class="w"> </span>name&gt;
+</code></pre></div>
+<p>-For certificates contained in RACF keyrings that are stored in hardware with ICSF, use</p>
+<div class="highlight"><pre><span></span><code>safkeyringhw:///&lt;keyring<span class="w"> </span>name&gt;
+</code></pre></div>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Latest Version</th>
+<th style="text-align: center;">CICS TS</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../../../">All Plugins</a></td>
+<td style="text-align: center;"><a href="../../">Deploy Plugins</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/CICS/cics-45.20240620-1707.zip">45.20240620-1707</a></td>
+<td style="text-align: center;"><a href="../">Readme</a></td>
+<td style="text-align: center;"><a href="../overview/">Overview</a></td>
+<td style="text-align: center;"><a href="../usage/">Usage</a></td>
+<td style="text-align: center;"><a href="../component_templates/">Component Templates</a></td>
+<td style="text-align: center;"><a href="../troubleshooting/">Troubleshooting</a></td>
+<td style="text-align: center;"><a href="../downloads/">Downloads</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+ 
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-hcl md-grid1">
+     <a href="https://www.hcltechsw.com/legal/disclaimer" class="nav-link footer-launch" target="_blank">Disclaimer</a>
+	 <a href="https://www.hcltechsw.com/legal/privacy" class="nav-link footer-launch" target="_blank">Privacy</a>
+	 <a href="https://www.hcltechsw.com/legal/terms-use" class="nav-link footer-launch" target="_blank">Terms of use</a>
+	 
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.instant", "search.highlight", "search.share", "search.suggest", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+        <script src="../../../javascripts/MkDocs_scCustLangSelect.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>

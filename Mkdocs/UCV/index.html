@@ -1,0 +1,2922 @@
+<!-- Elements added to main will be displayed on all pages -->
+<!--March2023-->
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A next-gen documentation site for HCLSoftware plugins.">
+      
+      
+      
+        <link rel="canonical" href="https://opensource.hcltechsw.com/product-name/UCV/">
+      
+      
+        <link rel="prev" href="../UCR/ucr-plugin-ansible/downloads/">
+      
+      
+        <link rel="next" href="ucv-ext-appscan/">
+      
+      
+      <link rel="icon" href="../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Welcome to DevOps Velocity Plugins - HCLSoftware plugins</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/style.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      <!--Jan2025-->
+<!-- OneTrust Cookies Consent Notice start for hcl-software.com -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="c65f43b5-068e-4e4b-80d3-bdc8c41cf93d" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for hcl-software.com -->
+
+<!--  Global site tag (gtag.js) - Google Analytics start -->
+<script src="https://www.googletagmanager.com/gtag/js?id=G-7LF0XY95M1" class="optanon-category-C0002-C0003-C0004-C0005"></script>
+<script type="text/plain" class="optanon-category-C0002-C0003-C0004-C0005">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169645537-2');
+  gtag('config', 'G-7LF0XY95M1');
+</script>
+ 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TNNFCCM');</script>
+  <!-- End Google Tag Manager -->
+  
+<!--  Global site tag (gtag.js) - Google Analytics end -->
+
+    
+    
+    
+  
+    <meta name="robots" content="index, follow" />
+  
+  <meta property="og:image" content="https://opensource.hcltechsw.com/digital-experience/site-thumbnail.png" />
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-devops-velocity-plugins" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+<div>
+   <a href="https://www.hcltechsw.com/"> 
+  <img width="150" height="30" src="https://help.hcltechsw.com/assets/images/HCL_Software_Logo_White.svg" alt="HCL Logo" target="_blank"></a>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="dropdown">
+  <button class="dropbtn">Resources <i class="fa fa-caret-down"></i></button> 
+  <div class="dropdown-content">
+  <a href="https://support.hcltechsw.com" target="_blank">Customer Support</a>
+  <a href="https://hclsoftwareu.hcltechsw.com/" target="_blank">HCLSoftware U</a>
+  <a href="https://support.hcltechsw.com/community" target="_blank">Community Forums</a>
+
+</div>
+</div>
+  
+  <!-- Uncomment the following announcement if you need it -->
+  <!--
+ <div class="md-banner--feedback" style="display:inline">
+
+  <strong>We value your feedback on this site.</strong> Please report any issues you find <a class="announcement__link" href="https://github.com/HCL-TECH-SOFTWARE/digital-experience/issues">via Github</a>. 
+  
+  <div class="md-banner--feedback">Looking for v8.5 or v9.0? <a class="announcement__link"  href="https://help.hcltechsw.com/digital-experience/9.5/welcome_hcl_dx.html">Check the legacy Help Center.</a>
+</div>  
+</div>
+-->
+
+</div>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+  A newer version of this product documentation is available.
+  <a href="../.."> 
+    <strong>View the latest version.</strong>
+  </a>
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL(".."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+          </aside>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="HCLSoftware plugins" class="md-header__button md-logo" aria-label="HCLSoftware plugins" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HCLSoftware plugins
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Welcome to DevOps Velocity Plugins
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/de/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    IBM-UCx-PLUGIN-DOCS
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../UCB/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Build
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../UCD/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Deploy
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../UCR/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Release
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Velocity
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../notices/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Notices
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="HCLSoftware plugins" class="md-nav__button md-logo" aria-label="HCLSoftware plugins" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    HCLSoftware plugins
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    IBM-UCx-PLUGIN-DOCS
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../UCB/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Build
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Build
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../UCB/AccuRev/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    AccuRev
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            AccuRev
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UCB/AccuRev/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UCB/AccuRev/usage.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UCB/AccuRev/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../UCD/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Deploy
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Deploy
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../UCD/Ant/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Ant
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Ant
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UCD/Ant/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UCD/Ant/steps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Steps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Ant/usage.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UCD/ucv-ext-appscan/downloads.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../UCR/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Release
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Release
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../UCR/ucr-plugin-ansible/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Ansible
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Ansible
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UCR/ucr-plugin-ansible/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UCR/ucr-plugin-ansible/steps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Steps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UCR/ucr-plugin-ansible/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UCR/ucr-plugin-ansible/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Velocity
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Velocity
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="ucv-ext-appscan/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Appscan Enterprise
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Appscan Enterprise
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ucv-ext-appscan/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ucv-ext-appscan/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ucv-ext-appscan/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="ucv-ext-asoc/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Appscan on Cloud
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Appscan on Cloud
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ucv-ext-asoc/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ucv-ext-asoc/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ucv-ext-asoc/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="ucv-ext-azure/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Azure DevOps
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            Azure DevOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ucv-ext-azure/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ucv-ext-azure/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ucv-ext-azure/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Notices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contents
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="welcome-to-devops-velocity-plugins">Welcome to DevOps Velocity Plugins</h1>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#welcome-to-urbancode-velocity-plugins">Welcome to DevOps Velocity Plugins</a><ul>
+<li><a href="#contents">Contents</a></li>
+</ul>
+</li>
+<li><a href="#list-of-all-plugins">List of all Plugins</a><ul>
+<li><a href="#aha">Aha!</a></li>
+<li><a href="#apache-jmeter">Apache JMeter</a></li>
+<li><a href="#azure-devops">Azure DevOps</a></li>
+<li><a href="#bitbucket-cloud">BitBucket Cloud</a></li>
+<li><a href="#bitbucket-server">BitBucket Server</a></li>
+<li><a href="#black-duck">Black Duck</a></li>
+<li><a href="#bottleneck-detection">Bottleneck Detection</a></li>
+<li><a href="#circleci">CircleCI</a></li>
+<li><a href="#code-coverage">Code Coverage</a></li>
+<li><a href="#collabnet-versionone">CollabNet VersionOne</a></li>
+<li><a href="#cucumber">Cucumber</a></li>
+<li><a href="#cypress">Cypress</a></li>
+<li><a href="#devops-build">DevOps Build</a></li>
+<li><a href="#devops-control">DevOps Control</a></li>
+<li><a href="#devops-deploy">DevOps Deploy</a></li>
+<li><a href="#devops-plan">DevOps Plan</a></li>
+<li><a href="#devops-test">DevOps Test</a></li>
+<li><a href="#devops-test-hub">DevOps Test Hub</a></li>
+<li><a href="#digitalai-agility">Digital.ai Agility</a></li>
+<li><a href="#fortify-ssc">Fortify SSC</a></li>
+<li><a href="#genai-summary-release-ibm">GenAI summary release-IBM</a> </li>
+<li><a href="#genai-summary-release-openai">GenAI summary release-OpenAI</a></li>
+<li><a href="#github">GitHub</a></li>
+<li><a href="#github-dependabot">GitHub Dependabot</a></li>
+<li><a href="#gitlab">GitLab</a></li>
+<li><a href="#hcl-appscan-enterprise-ase">HCL AppScan Enterprise (ASE)</a></li>
+<li><a href="#hcl-appscan-on-cloud-asoc">HCL AppScan on Cloud (ASoC)</a></li>
+<li><a href="#handlebar-reporter">Handlebar Reporter</a></li>
+<li><a href="#ibm-devops-test-hub">IBM DevOps Test Hub</a></li>
+<li><a href="#ibm-engineering-workflow-management-ewm">IBM Engineering Workflow Management (EWM)</a></li>
+<li><a href="#jenkins">Jenkins</a></li>
+<li><a href="#junit">JUnit</a></li>
+<li><a href="#jira">Jira</a></li>
+<li><a href="#jira-service-management">Jira Service Management</a></li>
+<li><a href="#microsoft-visual-studio-testing">Microsoft Visual Studio Testing</a></li>
+<li><a href="#milestone-risk-estimator">Milestone Risk Estimator</a></li>
+<li><a href="#Njs-Unit">Njs-Unit</a> </li>
+<li><a href="#planview-leankit">Planview Leankit</a></li>
+<li><a href="#rally">Rally</a></li>
+<li><a href="#sap-charm">SAP ChaRM</a></li>
+<li><a href="#selenium">Selenium</a></li>
+<li><a href="#servicenow">ServiceNow</a></li>
+<li><a href="#shell">Shell</a></li>
+<li><a href="#snyk">Snyk</a></li>
+<li><a href="#sonarqube">SonarQube</a></li>
+<li><a href="#testcomplete">TestComplete</a></li>
+<li><a href="#testng">TestNG</a></li>
+<li><a href="#twistlock">Twistlock</a></li>
+<li><a href="#urbancode-velocity">urbancode-velocity</a></li>
+<li><a href="#whitesource">WhiteSource</a></li>
+<li><a href="#yaml-executor">YAML Executor</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="list-of-all-plugins">List of all Plugins</h1>
+<h2 id="aha">Aha!</h2>
+<p>Aha! plug-in is used to integrate Aha! application with DevOps Velocity(Velocity). The plug-in extracts the Product Value of an Aha! feature to store it as business value in the Jira issues linked with the Aha! feature and displays it in value streams. The business value associated with the value stream will help you to prioritize your work based on the features that are most valuable for customers.
+<strong>Note</strong>: Currently you can only see the business value only for the Aha! issues that are linked to a Jira issue in the value stream. New search capability is added to filter the value stream dot consisting of business value using DQL search. You can use issue.businessValue item in the DQL search to filter the value stream dots associated with business value. See, DevOps query language (DQL).</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Aha!</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-aha/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-aha/ucv-ext-aha%3A1.0.1.tar.7z.001">1.0.1-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-aha/ucv-ext-aha%3A1.0.1.tar.7z.002">and 1.0.1-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="apache-jmeter">Apache JMeter</h2>
+<p>Apache JMeter is a testing tool to analyze and measure web application performance. The JMeter plug-in imports the test results  data in DevOps Velocity metrics.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Apache JMeter</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-jmeter/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jmeter/ucv-ext-jmeter-1.0.55.tar.zip">1.0.55</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="azure-devops">Azure DevOps</h2>
+<p>Azure DevOps (formerly Microsoft Team Foundation Server (TFS) or Microsoft TFS)provides services to manage end-to-end  flow of a development project. It contains services to share code, track work, and ship software.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Azure DevOps</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-azure/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure%3A4.0.45.tar.7z.001">4.0.45-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-azure/ucv-ext-azure%3A4.0.45.tar.7z.002">and 4.0.45-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="bitbucket-cloud">BitBucket Cloud</h2>
+<p>BitBucket Cloud is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">BitBucket Cloud</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-bitbucket-cloud/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-cloud/ucv-ext-bitbucket-cloud%3A1.0.29.tar.7z.001">1.0.29</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="bitbucket-server">BitBucket Server</h2>
+<p>BitBucket Server is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">BitBucket Server</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-bitbucket-server/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bitbucket-server/ucv-ext-bitbucket-server%3A1.1.26.tar.7z.001">1.1.26</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="black-duck">Black Duck</h2>
+<p>Black Duck by Synopsys identifies open source related vulnerabilities in applications and containers. It tracks the open  source in code, mitigate security and license compliance, and automates enforcing open source policies.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Black Duck</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-blackduck/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-blackduck/ucv-ext-blackduck-1.0.17.tar.zip">1.0.17</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="bottleneck-detection">Bottleneck Detection</h2>
+<p>The DevOps Velocity bottleneck detection plug-in monitors, detects, and alerts the user to the existence of bottlenecks in a value stream. A value stream bottleneck is a restriction in the local throughput that limits the global throughput of a system. The plug-in process uses work item stage-change data in concert with three individual algorithms in order to detect the presence of a bottleneck. Each individual algorithm monitors a value stream for the presence of a specific type of bottleneck. Detected bottlenecks are written to the metrics collection in the form of a bottleneck location (value stream and stage), detection message for display, and measure of bottleneck severity used for display prioritization.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Black Duck</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-bottleneck-detection/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.001">1.0.3-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.002">and 1.0.3-File 2 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.003">and 1.0.3-File 3 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.004">and 1.0.3-File 4 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.005">and 1.0.3-File 5 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-bottleneck-detection/ucv-ext-bottleneck-detection%3A1.0.3.tar.7z.006">and 1.0.3-File 6</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="circleci">CircleCI</h2>
+<p>CircleCI is a modern continuous integration and continuous delivery (CI/CD) platform. CircleCI automates build, test, and deployment of software.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">CircleCI</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-circleci/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com//UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-circleci/ucv-ext-circleci%3A1.0.24.tar.7z.001">1.0.24</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="code-coverage">Code Coverage</h2>
+<p>The Code Coverage plug-in allows for parsing of data from several code coverage tool. Included are LCOV, Cobertura,  JaCoCo, and Clover data.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Code Coverage</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-coverage-core/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-coverage-core/ucv-ext-coverage-core%3A1.0.44.tar.7z.001">1.0.44-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-coverage-core/ucv-ext-coverage-core%3A1.0.44.tar.7z.002">and 1.0.44-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="collabnet-versionone">CollabNet VersionOne</h2>
+<p>CollabNet VersionOne is a web-based project management tool. It manages the entire software development life cycle.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">CollabNet VersionOne</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-versionone/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-versionone/ucv-ext-versionone-1.0.11.tar.zip">1.0.11</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cucumber">Cucumber</h2>
+<p>Cucumber is a software testing tool that runs automated acceptance tests written in a behavior-driven development (BDD)  style. BDD testing focuses on the behaviour of the product.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Cucumber</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-cucumber/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cucumber/ucv-ext-cucumber-1.0.8.tar.zip">1.0.8</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="cypress">Cypress</h2>
+<p>Cypress provides a testing framework for the Java programming language. The Cypress plug-in imports the test results data in DevOps Velocity metrics.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Cypress</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-cypress/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cypress/ucv-ext-cypress%3A1.0.1.tar.7z.001">1.0.1-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-cypress/ucv-ext-cypress%3A1.0.1.tar.7z.002">and 1.0.1-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="devops-build">DevOps Build</h2>
+<p>DevOps Build is a distributed, multi-platform, enterprise-scale build management tool for configuring and running software builds.</p>
+<p>The DevOps Build plug-in for IBM DevOps Velocity imports build data from DevOps Build into IBM DevOps Velocity. Build activities can be mapped in the IBM DevOps Velocity pipeline and build results can be tracked from the pipeline.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">DevOps Build</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-build/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.001">1.0.2-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-build/ucv-ext-build%3A1.0.2.tar.7z.002">and 1.0.2-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="devops-control">DevOps Control</h2>
+<p>DevOps Control is a Git repository hosting service. The DevOps Control plug-in enables users to import Git artifacts by querying pull requests and commit, facilitating seamless integration and management of project resources.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">DevOps Control</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-control/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.001">1.0.5-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-control/ucv-ext-control%3A1.0.5.tar.7z.002">and 1.0.5-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="devops-deploy">DevOps Deploy</h2>
+<p>DevOps Deploy is engineered to handle the most complex deployment situations with push-button automation and controlled auditing needed in production. DevOps Deploy automates application deployments across varying IT environments.</p>
+<p>The Deploy Plugin for DevOps Velocity imports deployment data from DevOps Deploy into DevOps Velocity. Applications in DevOps Deploy can be mapped in the DevOps Velocity pipeline and the application versions can be tracked from the pipeline.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">DevOps Deploy</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-ucd/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.001">4.0.9 -File 1</a> <a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ucd/ucv-ext-ucd%3A4.0.9.tar.7z.002">and 4.0.9 -File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="devops-plan">DevOps Plan</h2>
+<p>DevOps Plan is a comprehensive change tracking system for software development environments. The DevOps Plan plug-in provides an integration with DevOps Plan server to import and synchronize DevOps Plan issues into an IBM DevOps Velocity server.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Plan</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-plan/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.001">1.1.58-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-compass/ucv-ext-compass%3A1.1.58.tar.7z.002">and 1.1.58-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="devops-test">DevOps Test</h2>
+<p>The DevOps Test tool provides automated software testing. This plug-in provides integration of Functional, Performance and Web UI test results (JSON) into the IBM DevOps Velocity.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">DevOps Test</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-onetest/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.001">1.0.40-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest/ucv-ext-onetest%3A1.0.40.tar.7z.002">and 1.0.40-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="devops-test-hub">DevOps Test Hub</h2>
+<p>DevOps Test Hub is a web-based continuous testing platform built on modern, cloud native technologies that enables test teams to run a breadth of tests that includes API, functional, and performance tests and to benefit from a holistic view of test progress</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">DevOps Test Hub</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-onetest-server/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.001">1.0.30-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-onetest-server/ucv-ext-onetest-server%3A1.0.30.tar.7z.002">and 1.0.30-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="digitalai-agility">Digital.ai Agility</h2>
+<p>Digital.ai.Agility is Enterprise level planning and tracking platform to build agile practices that scale across the  enterprise.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Digital.ai Agility</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-agility/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-agility/ucv-ext-agility-1.0.20.tar.zip">1.0.20</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="fortify-ssc">Fortify SSC</h2>
+<p>Fortify Software security center (SSC) enables teams with the application security program automation capabilities. It enables to manage, develop, and provide security for the software protection activities.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Fortify SSC</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-fortify-ssc/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-fortify-ssc/ucv-ext-fortify-ssc%3A1.0.19.tar.7z.001">1.0.19</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="genai-summary-release-ibm">GenAI summary release IBM</h2>
+<p>The GenAI Summary Release - IBM plugin for IBM DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. </p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">GenAI summary release-IBM</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-release-summary-ibm/">Readme</a></td>
+<td style="text-align: center;"><a href="https://hub.docker.com/r/urbancode/ucv-ext-release-summary-ibm/tags">1.0.7</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="genai-summary-release-openai">GenAI summary release OpenAI</h2>
+<p>The GenAI Summary Release - OpenAI plugin for IBM DevOps Velocity is designed to streamline and enhance your workflow by automatically generating concise business value summaries for candidate releases. Leveraging cutting-edge generative AI technology, this plugin interprets issue data to provide meaningful summaries that can be directly used in your business communications. </p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">GenAI summary release-OpenAI</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-release-summary-openai/">Readme</a></td>
+<td style="text-align: center;"><a href="https://hub.docker.com/r/urbancode/ucv-ext-release-summary-openai/tags">1.0.3</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="github">GitHub</h2>
+<p>GitHub is a Git repository hosting service. It provides tools to manage artifacts on the Git repository. The GitHub  plug-in imports Git artifacts based on queries for issues, commits and pull requests.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">GitHub</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-github/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.001">1.5.1-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-github/ucv-ext-github%3A1.5.1.tar.7z.002">and 1.5.1-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="github-dependabot">GitHub Dependabot</h2>
+<p>Github Dependabot plug-in scans package dependency vulnerabilities as Dependabot alerts from GitHub.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">GitHub Dependabot</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-dependabot/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-dependabot/ucv-ext-dependabot%3A1.0.2.tar.7z.001">1.0.2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="gitlab">GitLab</h2>
+<p>GitLab provides management of git repositories. The GitLab plug-in imports issues, commits, merge requests and builds  from a GitLab server.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">GitLab</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-gitlab/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.2.69.tar.7z.001">2.2.69-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-gitlab/ucv-ext-gitlab%3A2.2.69.tar.7z.002">and 2.2.69-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="hcl-appscan-enterprise-ase">HCL AppScan Enterprise (ASE)</h2>
+<p>AppScan Enterprise delivers scalable application security testing and risk management capabilities, to help enterprises  manage risk and compliance. AppScan enables security, DevOps teams to collaborate, establish policies, and perform  testing throughout the application development lifecycle. The AppScan Enterprise plug-in imports scan results to  insights.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">HCL AppScan Enterprise (ASE)</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-appscan/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan%3A2.0.51.tar.7z.001">2.0.51-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-appscan/ucv-ext-appscan%3A2.0.51.tar.7z.002">and 2.0.51-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="hcl-appscan-on-cloud-asoc">HCL AppScan on Cloud (ASoC)</h2>
+<p>HCL AppScan on Cloud (ASoC) is an application security offering that allows you to scan a web URL for security  vulnerabilities.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">HCL AppScan on Cloud (ASoC)</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-asoc/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-asoc/ucv-ext-asoc%3A3.0.25.tar.7z.001">3.0.25-File1</a> <a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-asoc/ucv-ext-asoc%3A3.0.25.tar.7z.002"> and 3.0.25-File2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="handlebar-reporter">Handlebar Reporter</h2>
+<p>Handlebars is a simple templating language. It can be used to generate HTML or other text formats from a template and  input object.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Handlebar Reporter</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-handlebars-reporter/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-handlebars-reporter/ucv-ext-handlebars-reporter%3A2.0.1.tar.7z.001">2.0.1</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ibm-devops-test-hub">IBM DevOps Test Hub</h2>
+<p>IBM DevOps Test Hub is a fully-containerized (Docker) server component used by test teams to consolidate  testing from each of the Test Workbench products into a single view.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">IBM DevOps Test Hub</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-rtas/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.38.tar.7z.001">1.0.38-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rtas/ucv-ext-rtas%3A1.0.38.tar.7z.002">and 1.0.38-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ibm-engineering-workflow-management-ewm">IBM Engineering Workflow Management (EWM)</h2>
+<p>The IBM Engineering Workflow Management (EWM) plug-in, previously known as the IBM Rational Team Concert, provides  integration with the IBM Workflow Management (EWM) server. This plug-in imports work items from an IBM EWM server to an  DevOps Velocity value stream map.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">IBM Engineering Workflow Management (EWM)</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-ewm/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.001">1.1.32-File 1</a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.002">and 1.1.32-File 2</a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-ewm/ucv-ext-ewm%3A1.1.32.tar.7z.003">and 1.1.32-File 3</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="jenkins">Jenkins</h2>
+<p>A new plug-in for Jenkins works as any other plug-ins of DevOps Velocity. The old plugin has been renamed to Jenkins (Legacy). The Jenkins plug-in pull jobs from Jenkins and provide as an Input to the release pipelines and as an automation task in deployment plan. </p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Jenkins</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-jenkins/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.7.tar.7z.001">1.1.7-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jenkins/ucv-ext-jenkins%3A1.1.7.tar.7z.002">and 1.1.7-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="junit">JUnit</h2>
+<p>JUnit provides a testing framework for the Java programming language. The JUnit plug-in imports the test results data into IBM DevOps Velocity metrics dashboard.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">JUnit</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-junit/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-junit/ucv-ext-junit%3A1.0.84.tar.7z.001">1.0.84-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-junit/ucv-ext-junit%3A1.0.84.tar.7z.002">and 1.0.84-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="jira">Jira</h2>
+<p>Jira is an issue tracking product, developed by Atlassian. The Jira plug-in provides an integration with Jira to import  and work with Jira work items.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Jira</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-jira/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.4.2.tar.7z.001">2.4.2-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira/ucv-ext-jira%3A2.4.2.tar.7z.002">and 2.4.2-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="jira-service-management">Jira Service Management</h2>
+<p>Jira Service Management is an issue tracking product, developed by Atlassian. The Jira Service Management plug-in provides an integration with Jira Service Management to import and work with Jira Service Management incidents.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Jira Servicement Management</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-jira-service-management/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira-service-management/ucv-ext-jira-service-management%3A1.0.1.tar.7z.001">1.0.1-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-jira-service-management/ucv-ext-jira-service-management%3A1.0.1.tar.7z.002">and 1.0.1-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="microsoft-visual-studio-testing">Microsoft Visual Studio Testing</h2>
+<p>Microsoft Visual Studio is a testing framework which is used to define and run unit tests to verify and maintain code integerty. </p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Microsoft Visual Studio Testing</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-vs-quality/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-vs-quality/ucv-ext-vs-quality-1.0.31.tar.zip">1.0.31</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="milestone-risk-estimator">Milestone Risk Estimator</h2>
+<p>The Milestone Risk Estimator plug-in represents an innovative Machine Learning(ML) solution designed to enhance value stream management by providing accurate sprint risk estimates. The projected outcomes are presented through metrics, enabling more effective sprint management for increased productivity.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Milestone Risk Estimator</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-milestone-risk-estimator/">Readme</a></td>
+<td style="text-align: center;"><a href="https://hub.docker.com/r/urbancode/ucv-ext-milestone-risk-estimator/tags">2.0.2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="njs-unit">Njs-Unit</h2>
+<p>You can visualize unit test results for given applications or value streams or teams in graphical format on the insight page.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Njs-Unit</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-njs-unit/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-njs-unit/ucv-ext-njs-unit%3A1.0.4.tar.7z.001">1.0.4-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-njs-unit/ucv-ext-njs-unit%3A1.0.4.tar.7z.002">and 1.0.4-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="planview-leankit">Planview Leankit</h2>
+<p>The Planview Leankit plugin processes incoming data from Planview LeanKit server.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Planview Leankit</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-leankit/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-leankit/ucv-ext-leankit%3A1.0.1.tar.7z.001">1.0.1</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rally">Rally</h2>
+<p>Rally is an Agile project management tool for planning, scheduling, and tracking iterations and releases. The Rally  plug-in provides for integration with a Rally server. It imports Rally artifacts into the DevOps Velocity server.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Rally</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-rally/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-rally/ucv-ext-rally%3A1.0.43.tar.7z.001">1.0.43</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sap-charm">SAP ChaRM</h2>
+<p>The SAP ChaRM plug-in will sync SAP Normal Changes in SAP's Change Request Management with Jira issues .</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">SAP ChaRM</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-sap-charm/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-sap-charm/ucv-ext-sap-charm%3A1.0.1.tar.7z.001">1.0.1</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="selenium">Selenium</h2>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Selenium</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="selenium-ucv/">Readme</a></td>
+<td style="text-align: center;"><a href="">0</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="servicenow">ServiceNow</h2>
+<p>The ServiceNow plug-in for IBM DevOps Velocity automates the importing of ServiceNow incident management(Beta),  change management and problem management data from a ServiceNow server.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">ServiceNow</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-servicenow/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.16.tar.7z.001">1.1.16-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-servicenow/ucv-ext-servicenow%3A1.1.16.tar.7z.002">and 1.1.16-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="shell">Shell</h2>
+<p>The Shell plug-in for IBM DevOps Velocity automates the task in releases.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Shell</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-shell/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-shell/ucv-ext-shell%3A0.0.34.tar.7z.001">0.0.34-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-shell/ucv-ext-shell%3A0.0.34.tar.7z.002">and 0.0.34-File 2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="snyk">Snyk</h2>
+<p>The Snyk plug-in scans GitHub , GitLab and Bitbucket repositories package dependency vulnerabilities from Snyk . Works on top of existing GiHub , GitLab or Bitbucket integraions.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Snyk</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-snyk/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-snyk/ucv-ext-snyk:1.0.1.tar.7z.001">1.0.1</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sonarqube">SonarQube</h2>
+<p>SonarQube is an open source tool suite to measure and analyze the quality of source code. It focuses on the following  code quality areas, which are referred to as the “7 axes of code quality”: comments, architecture and design,  duplication, coding rules, potential bugs, unit tests, and complexity.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">SonarQube</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-sonarqube/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-sonarqube/ucv-ext-sonarqube-1.0.50.tar.zip">1.0.50</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="testcomplete">TestComplete</h2>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">TestComplete</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="testcomplete-ucv/">Readme</a></td>
+<td style="text-align: center;"><a href="">0</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="testng">TestNG</h2>
+<p>TestNG is a testing framework for Java programming. This plug-in provides integration of testing results into the  DevOps Velocity server.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">TestNG</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-testng/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-testng/ucv-ext-testng-1.0.13.tar.zip">1.0.13</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="twistlock">Twistlock</h2>
+<p>Twistlock provides container security. It is a rule-based access control policy system for Docker and Kubernetes  containers. The Twistlock plug-in imports the Twistlock data in DevOps Velocity metrics.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Twistlock</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-twistlock/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-twistlock/ucv-ext-twistlock-1.0.43.tar.zip">1.0.43</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="urbancode-velocity">urbancode-velocity</h2>
+<p>With this Jenkins plugin, you can run Jenkins jobs as a part of a deployment plan in DevOps Velocity. You can run jobs that will trigger the creation of a version in a Velocity Pipeline as well as persist properties on that version that can be used as input properties in other Jenkins builds. This plugin will pass along important data from Git to the Velocity Pipeline.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">urbancode-velocity</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="urbancode-velocity/">Readme</a></td>
+<td style="text-align: center;"><a href="https://github.com/jenkinsci/urbancode-velocity-plugin/releases/download/3.0.1/urbancode-velocity-3.0.1.hpi">3.0.1</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="whitesource">WhiteSource</h2>
+<p>WhiteSource identifies all open source components and their dependencies in software. WhiteSource secures software from vulnerabilities and enforces license policies throughout the software development lifecycle.</p>
+<p>The WhiteSource plug-in retrieves WhiteSource scan results and displays the License Risks and Security Vulnerabilities in IBM DevOps Velocity metric displays.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">WhiteSource</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-whitesource/">Readme</a></td>
+<td style="text-align: center;"><a href="https://github.com/UrbanCode/IBM-UCV-PLUGINS/raw/main/files/ucv-ext-whitesource/ucv-ext-whitesource-2.0.15.tar.zip">2.0.15</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="yaml-executor">YAML Executor</h2>
+<p>The YAML Executor plug-in automates the initial setup process for integrating different CI/CD tools into DevOps Velocity. You can define the integration configurations in a YAML file and apply it in DevOps Velocity to automate the integration process.</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">YAML Executor</th>
+<th style="text-align: center;">Latest Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../">All Plugins</a></td>
+<td style="text-align: center;"><a href="#contents">Top</a></td>
+<td style="text-align: center;"><a href="ucv-ext-yaml-executor/">Readme</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.13.tar.7z.001">0.0.13-File 1 </a><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCV-PLUGINS/main/files/ucv-ext-yaml-executor/ucv-ext-yaml-executor%3A0.0.13.tar.7z.002">and 0.0.13-File 2</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+ 
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-hcl md-grid1">
+     <a href="https://www.hcltechsw.com/legal/disclaimer" class="nav-link footer-launch" target="_blank">Disclaimer</a>
+	 <a href="https://www.hcltechsw.com/legal/privacy" class="nav-link footer-launch" target="_blank">Privacy</a>
+	 <a href="https://www.hcltechsw.com/legal/terms-use" class="nav-link footer-launch" target="_blank">Terms of use</a>
+	 
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.instant", "search.highlight", "search.share", "search.suggest", "content.code.copy"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+        <script src="../javascripts/MkDocs_scCustLangSelect.js"></script>
+      
+        <script src="../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>

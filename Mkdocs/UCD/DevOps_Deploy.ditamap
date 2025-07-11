@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>DevOps Deploy</title>
+    <topicref href="DevOps_Deploy.md" format="markdown" navtitle="DevOps Deploy"/>
+</map>

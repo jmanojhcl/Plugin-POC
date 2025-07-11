@@ -1,0 +1,2910 @@
+<!-- Elements added to main will be displayed on all pages -->
+<!--March2023-->
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A next-gen documentation site for HCLSoftware plugins.">
+      
+      
+      
+        <link rel="canonical" href="https://opensource.hcltechsw.com/product-name/UCD/zos-deploy/overview/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>z/OS Utility - HCLSoftware plugins</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/style.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      <!--Jan2025-->
+<!-- OneTrust Cookies Consent Notice start for hcl-software.com -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="c65f43b5-068e-4e4b-80d3-bdc8c41cf93d" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for hcl-software.com -->
+
+<!--  Global site tag (gtag.js) - Google Analytics start -->
+<script src="https://www.googletagmanager.com/gtag/js?id=G-7LF0XY95M1" class="optanon-category-C0002-C0003-C0004-C0005"></script>
+<script type="text/plain" class="optanon-category-C0002-C0003-C0004-C0005">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169645537-2');
+  gtag('config', 'G-7LF0XY95M1');
+</script>
+ 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TNNFCCM');</script>
+  <!-- End Google Tag Manager -->
+  
+<!--  Global site tag (gtag.js) - Google Analytics end -->
+
+    
+    
+    
+  
+    <meta name="robots" content="index, follow" />
+  
+  <meta property="og:image" content="https://opensource.hcltechsw.com/digital-experience/site-thumbnail.png" />
+
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#zos-utility" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+<div>
+   <a href="https://www.hcltechsw.com/"> 
+  <img width="150" height="30" src="https://help.hcltechsw.com/assets/images/HCL_Software_Logo_White.svg" alt="HCL Logo" target="_blank"></a>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="dropdown">
+  <button class="dropbtn">Resources <i class="fa fa-caret-down"></i></button> 
+  <div class="dropdown-content">
+  <a href="https://support.hcltechsw.com" target="_blank">Customer Support</a>
+  <a href="https://hclsoftwareu.hcltechsw.com/" target="_blank">HCLSoftware U</a>
+  <a href="https://support.hcltechsw.com/community" target="_blank">Community Forums</a>
+
+</div>
+</div>
+  
+  <!-- Uncomment the following announcement if you need it -->
+  <!--
+ <div class="md-banner--feedback" style="display:inline">
+
+  <strong>We value your feedback on this site.</strong> Please report any issues you find <a class="announcement__link" href="https://github.com/HCL-TECH-SOFTWARE/digital-experience/issues">via Github</a>. 
+  
+  <div class="md-banner--feedback">Looking for v8.5 or v9.0? <a class="announcement__link"  href="https://help.hcltechsw.com/digital-experience/9.5/welcome_hcl_dx.html">Check the legacy Help Center.</a>
+</div>  
+</div>
+-->
+
+</div>
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+          <aside class="md-banner md-banner--warning">
+            <div class="md-banner__inner md-grid md-typeset">
+              
+  A newer version of this product documentation is available.
+  <a href="../../../.."> 
+    <strong>View the latest version.</strong>
+  </a>
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+          </aside>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="HCLSoftware plugins" class="md-header__button md-logo" aria-label="HCLSoftware plugins" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HCLSoftware plugins
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              z/OS Utility
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/de/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    IBM-UCx-PLUGIN-DOCS
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../UCB/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Build
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Deploy
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../UCR/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Release
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../UCV/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  DevOps Velocity
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../notices/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Notices
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="HCLSoftware plugins" class="md-nav__button md-logo" aria-label="HCLSoftware plugins" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    HCLSoftware plugins
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    IBM-UCx-PLUGIN-DOCS
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCB/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Build
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Build
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCB/AccuRev/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    AccuRev
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            AccuRev
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCB/AccuRev/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCB/AccuRev/usage.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCB/AccuRev/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Deploy
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Deploy
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Ant/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Ant
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Ant
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ant/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ant/steps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Steps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/Ant/usage.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ucv-ext-appscan/downloads.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCR/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Release
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Release
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCR/ucr-plugin-ansible/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Ansible
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Ansible
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCR/ucr-plugin-ansible/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCR/ucr-plugin-ansible/steps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Steps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCR/ucr-plugin-ansible/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCR/ucr-plugin-ansible/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCV/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    DevOps Velocity
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            DevOps Velocity
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCV/ucv-ext-appscan/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Appscan Enterprise
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Appscan Enterprise
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-appscan/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-appscan/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-appscan/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCV/ucv-ext-asoc/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Appscan on Cloud
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            Appscan on Cloud
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-asoc/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-asoc/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-asoc/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../UCV/ucv-ext-azure/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Azure DevOps
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            Azure DevOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-azure/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-azure/usage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../UCV/ucv-ext-azure/downloads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    downloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../notices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Notices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#compatibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compatibility
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#history" class="md-nav__link">
+    <span class="md-ellipsis">
+      History
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="History">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#version-98" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 98
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-97" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 97
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-96" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 96
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-95" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 95
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-94" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 94
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-93" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 93
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-92" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 92
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-91" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 91
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-90" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 90
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-89" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 89
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-88" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 88
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-87" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 87
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-86" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 86
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-85" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 85
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-84" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 84
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-83" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 83
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-82" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 82
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-81" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 81
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-80" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 80
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-79" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 79
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-78" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 78
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-77" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 77
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-76" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 76
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-75" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 75
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-74" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 74
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-73" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 73
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-72" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 72
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-71" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 71
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-70" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 70
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-69" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 69
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-68" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 68
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-67" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 67
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-66" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 66
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-65" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 65
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-64" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 64
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-63" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 63
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-62" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 62
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-61" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 61
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-60" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 60
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-591126010" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 59.1126010
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-591125740" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 59.1125740
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-591125359" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 59.1125359
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-591125062" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 59.1125062
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-591125008" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 59.1125008
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-581122539" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 58.1122539
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-571121803" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 57.1121803
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-571121798" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 57.1121798
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-571121666" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 57.1121666
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-561102074" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 56.1102074
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-561100633" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 56.1100633
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-561098848" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 56.1098848
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-56" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 56
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-55" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 55
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-54" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 54
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-53" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 53
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-52" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 52
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#note-from-version-51-groovy-string-methods-are-not-interpreted-in-template-input-since-the-code-is-rewritten-in-java" class="md-nav__link">
+    <span class="md-ellipsis">
+      Note: From version 51, groovy string methods are not interpreted in Template input since the code is rewritten in Java.
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-51" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 51
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-50" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 50
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-49" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 49
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-48" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 48
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-46" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 46
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-45" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 45
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-44" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 44
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-41" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 41
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-391001623" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 39.1001623
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-39992980" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 39.992980
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-27864857" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 27.864857
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-26813109" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 26.813109
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-24800369" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 24.800369
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-22787240" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 22.787240
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#version-17692574" class="md-nav__link">
+    <span class="md-ellipsis">
+      Version 17.692574
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="zos-utility">z/OS Utility</h1>
+<h2 id="overview">Overview</h2>
+<p>The z/OS Utility plug-in includes steps for retrieving and deploying IBM z/OS artifacts.</p>
+<p>This plug-in requires agents that run on the z/OS platform. The Submit Job and Wait For Job steps require the job server component that is included with IBM DevOps Deploy, Rational Team Concert, or Rational Developer for System z.</p>
+<p>The plug-in includes steps that are related to deploying z/OS artifacts, such as the following steps:</p>
+<ul>
+<li>Copy Artifacts</li>
+<li>FTP Artifacts</li>
+<li>Deploy Datasets and USS Files</li>
+<li>Rollback Datasets and USS Files</li>
+<li>Cleanup Backup Files</li>
+</ul>
+<p>The plug-in also includes steps that are related to running z/OS commands, submitting and tracking jobs, and working with data sets, such as the following steps:</p>
+<ul>
+<li>Submit Job</li>
+<li>Wait For Job</li>
+<li>Run TSO or ISPF Command</li>
+<li>Run MVS Command</li>
+<li>Allocate Data Set</li>
+<li>Copy Data Set</li>
+<li>Replace Tokens MVS</li>
+</ul>
+<p>To learn how to import components from data sets in IBM z/OS, see <a href="https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=integrating-deploying-components-zos-platform">Deploying to the z/OS platform</a>.</p>
+<p>The plug-in also includes the Generate Artifact Information step, which scans version artifacts and generates text based on a template. The output text can be used as an input property for subsequent steps. Use the Generate Artifact Information to process data sets or members in a component version. You can also use the Generate Artifact Information step to select a set of artifacts to process, by applying filters on data set names, member names, deployment types, and custom properties.</p>
+<p>The plug-in also includes steps that are related to managing redundant incremental versions, such as the following steps:</p>
+<ul>
+<li>Remove All Versions</li>
+<li>Remove Redundant Versions</li>
+</ul>
+<h3 id="compatibility">Compatibility</h3>
+<ul>
+<li>IBM DevOps Deploy version 7.0.0 or later</li>
+<li>IBM DevOps Deploy agents on z/OS</li>
+<li>IBM z/OS version 2.4 or later with System REXX</li>
+<li>Starting with version 49 this plug-in requires Java 8 or above</li>
+</ul>
+<h3 id="installation">Installation</h3>
+<p>No special steps are required for installation. See <a href="https://community.ibm.com/community/user/wasdevops/blogs/laurel-dickson-bull1/2022/06/13/install-plugins">Installing plug-ins in DevOps products</a>. You must install and configure the z/OS deployment tools before you use the plug-in. To learn how to install and configure the z/OS deployment tools, see <a href="https://www.ibm.com/docs/en/urbancode-deploy/7.2.3?topic=integrating-deploying-components-zos-platform">Deploying to the z/OS platform</a>. You must configure the job server component before you run the following steps: Submit Job and Wait For Job.</p>
+<h3 id="history">History</h3>
+<h4 id="version-98">Version 98</h4>
+<ul>
+<li>Support Rollback for non-risky artifacts starting server and agent version 812. See <a href="https://community.ibm.com/community/user/blogs/bharath-kumar3/2025/06/25/introducing-smarter-zos-rollbacks-in-devops-deploy">Non Risky Rollback</a>. </li>
+<li>Logging is now consistent under 'Deploy Reports' section in the 'Deploy Datasets and USS files' step</li>
+</ul>
+<h4 id="version-97">Version 97</h4>
+<ul>
+<li>Renamed <code>Deploy Data Sets</code> step to <code>Deploy Datasets and USS Files</code></li>
+<li>Renamed <code>Rollback Data Sets</code> to <code>Rollback Datasets and USS Files</code></li>
+<li>Skip backup option for a full type version</li>
+<li>Fixed DT438858—NullPointerException during backup in Deploy Datasets step</li>
+<li>Fixed ClassCastException for Deploy step</li>
+<li>Fixed DT440158-Matching artifacts not skipped during runtime delta deployment</li>
+<li>Fixed DT440674—Unable to create file issue when using container filter</li>
+</ul>
+<h4 id="version-96">Version 96</h4>
+<ul>
+<li>Backup and Rollback use <code>cp</code> command instead of <code>XMIT/RECEIVE</code> for <code>v2</code> format</li>
+<li>Fixed issue with setting output properties</li>
+<li>Set <code>socket timeout</code> to <code>15 minutes</code> to fix read timeout</li>
+</ul>
+<h4 id="version-95">Version 95</h4>
+<ul>
+<li>Z Inventory update now supported based on Server version instead of Agent version</li>
+<li>Minor improvements in ISPF Gateway</li>
+<li>Removed input to pass library path in Submit Job and Wait For Job steps</li>
+<li>Removed duplicate logs during backup stage in Deploy Data set step</li>
+<li>Fixed Rollback issue when there are no resources in container</li>
+<li>Added deployType attribute to resource and container tag to Rollback Manifest file</li>
+<li><code>Submit job</code>/<code>Wait for job</code> steps now throws exception when Job is not found instead of failing with timeout error</li>
+</ul>
+<h4 id="version-94">Version 94</h4>
+<ul>
+<li>Added debug logging capability</li>
+</ul>
+<h4 id="version-93">Version 93</h4>
+<ul>
+<li>Removed input to pass binder shared library path from Deploy datasets step</li>
+<li>Added option to pass retain days in Remove All Versions and Remove Redundant Versions steps</li>
+<li>Dependent groovy libraries are now shipped with plugin to avoid incompatibility issues as groovy versions differ by agent version.</li>
+<li>Performance improvements.</li>
+<li>Fixed UnsatisfiedLinkError error while running MVS Command with Java 17</li>
+<li>Enhancements in error handling when deploying v1 versions</li>
+<li>Fixed IncompatibleClassChangeError</li>
+</ul>
+<h4 id="version-92">Version 92</h4>
+<ul>
+<li>Minor improvements in Runtime delta deployment</li>
+<li>Binder Path input is optional in Deploy Data sets step</li>
+</ul>
+<h4 id="version-91">Version 91</h4>
+<ul>
+<li>Added support for single source to multiple targets mapping</li>
+</ul>
+<blockquote>
+<p>Read <a href="https://community.ibm.com/community/user/wasdevops/blogs/bharath-kumar3/2024/11/06/deploying-to-multiple-target-dataset-on-zos">Deploying To Multiple Target Datasets on z/OS</a> for more details</p>
+</blockquote>
+<ul>
+<li>Improvements in ISPF gateway error handling</li>
+<li>User can set MAX-RC for copy dataset step</li>
+<li>Improvements in HFS Deployment</li>
+<li>Fixed PH62152 - RcException while allocating temporary datasets</li>
+</ul>
+<h4 id="version-90">Version 90</h4>
+<ul>
+<li>Inventory Delta-deploy is now timezone agnostic</li>
+<li>Minor code improvements </li>
+<li>PH60517 - Inventory Delta deploy discards the number of HLQ set in component configuration during artifact comparison</li>
+<li>Fixed bug with Rollback when two or more source PDS mapped to same target during deployment</li>
+<li>Rollback Program ported from Groovy to Java</li>
+<li>Dataset Mapping that have DUMMY as target containers are not checked for R/W access</li>
+</ul>
+<h4 id="version-89">Version 89</h4>
+<ul>
+<li>Added new input to TSO/ISPF step to pass temporary DSN prefix</li>
+<li>Removed ibmjzos jar from the plugin as it is shipped with IBM Java for z/OS</li>
+<li>Fixed PH59773 - Deploy data sets step does not skip backup when the latest version is deployed again</li>
+</ul>
+<h4 id="version-88">Version 88</h4>
+<ul>
+<li>Fixed PH57595 - ROLLBACK DATASET STEP DELETES PDS AFTER DELETING ALL THE NEWLY CREATED MEMBERS DURING DEPLOYMENT</li>
+<li>Minor improvements</li>
+<li>Huge improvements in Rollback Manifest XML file generated during deploy data sets step with backup enabled</li>
+<li>Fixed APAR PH57385 - Error deploying version.Status code - 400</li>
+<li>Exit Restore Backup step with a warning when there is no datasets backup</li>
+</ul>
+<h4 id="version-87">Version 87</h4>
+<ul>
+<li>Added new plugin step - Restore Backup Datasets</li>
+<li>Use Legacy ISPF Gateway to run programs by default</li>
+<li>Fixed NoSuchMethodError during HFS deployment</li>
+<li>Improvements in Submit Job and Wait For Job steps.
+  <strong>Note:</strong> As part of the improvement, the order of authentication method is changed to below</li>
+<li>Use Agent/Impersonation Id</li>
+<li>Use PassTicket</li>
+<li>Use Password</li>
+</ul>
+<h4 id="version-86">Version 86</h4>
+<ul>
+<li>Removed support for Submit Job and Wait For Job steps to run outside the mainframe systems</li>
+<li>Fixed APAR PH57188 - SUBMIT JOB INCORRECT FORMATTING WHEN JCL LINE EXCEEDS 72 CHARACTERS</li>
+</ul>
+<h4 id="version-85">Version 85</h4>
+<ul>
+<li>Minor improvements in New Package Format Deployment and Deleting Datasets</li>
+<li>Added input to pass Ispf Gateway Path for Deploy Data sets step</li>
+</ul>
+<h4 id="version-84">Version 84</h4>
+<ul>
+<li>Fixes output buffering issue when TSO/ISPF command prints too much output.</li>
+<li>Added deployment action filter and new loop type to exclude Deleted missing PDS members</li>
+<li>Fixed a typo with deploy type in generate artifact info step</li>
+<li>Added check for Target Dataset Filter to allow only dataset or member loop types</li>
+</ul>
+<h4 id="version-83">Version 83</h4>
+<ul>
+<li>Added new input to enable or disable PDS member replace during deployment</li>
+<li>Fixed issue with cleanup</li>
+<li>Fixed Null Pointer Exception in Generate Artifact information step</li>
+</ul>
+<h4 id="version-82">Version 82</h4>
+<ul>
+<li>Fixes CVE-2023-1436 and APAR PH53341 </li>
+</ul>
+<h4 id="version-81">Version 81</h4>
+<ul>
+<li>Fixed APAR PH53341 related to parsing error when deploying zOS versions</li>
+</ul>
+<h4 id="version-80">Version 80</h4>
+<ul>
+<li>Fixed issue with agent version check and minor improvements</li>
+</ul>
+<h4 id="version-79">Version 79</h4>
+<ul>
+<li>Updates deployed artifacts to ZInventory when run on agent versions above 730 </li>
+</ul>
+<h4 id="version-78">Version 78</h4>
+<ul>
+<li>Fixes vulnerability CVE-2022-45693 and CVE-2022-45685</li>
+<li>Fixed JMON issue -
+  BUZ300E Internal error: Unknown client protocol level.
+  FEJ300E Internal error: Unknown client protocol level.</li>
+</ul>
+<h4 id="version-77">Version 77</h4>
+<ul>
+<li>Minor improvements</li>
+<li>Fixed issue with deleted containers for generating artifact information</li>
+</ul>
+<h4 id="version-76">Version 76</h4>
+<ul>
+<li>Support for deleting members from PDS which is in contention</li>
+<li>Fixes vulnerability CVE-2021-37533</li>
+</ul>
+<h4 id="version-75">Version 75</h4>
+<ul>
+<li>Updating jettison library for CVE-2022-40150 CVE-2022-40149</li>
+</ul>
+<h4 id="version-74">Version 74</h4>
+<ul>
+<li>Added new step to clean-up backup files </li>
+</ul>
+<h4 id="version-73">Version 73</h4>
+<ul>
+<li>Fixed issue with replacing token for each job and minor improvements</li>
+</ul>
+<h4 id="version-72">Version 72</h4>
+<ul>
+<li>Added support for deleting multiple datasets using Delete dataset step</li>
+<li>Fixed security issue CVE-2021-29425</li>
+</ul>
+<h4 id="version-71">Version 71</h4>
+<ul>
+<li>TSO ISPF command and FTP Artifacts step migrated to Java</li>
+<li>PH46505 Fixed issue with filtering containers mapped to same Target PDS in Generate Artifact step</li>
+</ul>
+<h4 id="version-70">Version 70</h4>
+<ul>
+<li>Wait For Job and MVS Command steps are migrated to Java</li>
+<li>Fixed issue with Java 11 to run shell script</li>
+</ul>
+<h4 id="version-69">Version 69</h4>
+<ul>
+<li>Added new step to delete dataset/PDS members</li>
+</ul>
+<h4 id="version-68">Version 68</h4>
+<ul>
+<li>Update udclient and uDeployRestClient</li>
+<li>Fixed issue with GDG version creation in Allocate Steps</li>
+</ul>
+<h4 id="version-67">Version 67</h4>
+<ul>
+<li>Minor improvements.</li>
+</ul>
+<h4 id="version-66">Version 66</h4>
+<ul>
+<li>Remove All Versions and Remove Redundant Versions steps are migrated to run on Java for performance improvements.</li>
+<li>Added checkbox for Dry run in Remove All Versions step.</li>
+</ul>
+<h4 id="version-65">Version 65</h4>
+<ul>
+<li>Copy Artifacts and Copy Data Set steps are migrated to run on Java for performance improvements.</li>
+</ul>
+<h4 id="version-64">Version 64</h4>
+<ul>
+<li>Remove log4j functionality related to: CVE-2019-17571, CVE-2020-9488. CVE-2021-4104, CVE-2022-23302, CVE-2022-23305, CVE-2022-23307</li>
+</ul>
+<h4 id="version-63">Version 63</h4>
+<ul>
+<li>Minor enhancements in Submit Job and Wait For Job steps</li>
+<li>Fixed handling of temporary datasets in case of failure in new package format</li>
+<li>Minor Improvments in new package format</li>
+<li>Fixed ZFileException while cleaning up unclosed temporary dataset</li>
+<li>Fixed IGD17036I in new package deployments</li>
+</ul>
+<h4 id="version-62">Version 62</h4>
+<ul>
+<li>Added check box to delete dataset if already exist for Allocate steps</li>
+</ul>
+<h4 id="version-61">Version 61</h4>
+<ul>
+<li>Allocate data set steps are rewritten in Java for better performance</li>
+</ul>
+<h4 id="version-60">Version 60</h4>
+<ul>
+<li>Enhancements and bug fixes for HFS deployment and rollback – APAR PH42431</li>
+</ul>
+<h4 id="version-591126010">Version 59.1126010</h4>
+<ul>
+<li>Fixed HFS untar issue for Ant version upgrade</li>
+</ul>
+<h4 id="version-591125740">Version 59.1125740</h4>
+<ul>
+<li>Fixed APAR-PH41930 Parsing return codes from ISPF gateway has been enhanced</li>
+</ul>
+<h4 id="version-591125359">Version 59.1125359</h4>
+<ul>
+<li>Fixed Page End statement in submit job step to display after output</li>
+</ul>
+<h4 id="version-591125062">Version 59.1125062</h4>
+<ul>
+<li>Fixed APAR PH41991 added support for JOBRC parameter in submit job step</li>
+</ul>
+<h4 id="version-591125008">Version 59.1125008</h4>
+<ul>
+<li>Changed Prevent Risky Rollback input in Rollback step from check-box to Drop-Down</li>
+</ul>
+<h4 id="version-581122539">Version 58.1122539</h4>
+<ul>
+<li>Added support to run Wait For Job step using Agent Id or Impersonation Id</li>
+</ul>
+<h4 id="version-571121803">Version 57.1121803</h4>
+<ul>
+<li>Reformatted checkaccess error message</li>
+</ul>
+<h4 id="version-571121798">Version 57.1121798</h4>
+<ul>
+<li>Fixed PH39119 – Rollback step failing with version not deployed error after a failed deployment</li>
+</ul>
+<h4 id="version-571121666">Version 57.1121666</h4>
+<ul>
+<li>Added support for submitting job using Agent Id or Impersonation Id</li>
+</ul>
+<h4 id="version-561102074">Version 56.1102074</h4>
+<ul>
+<li>Fixed newline character parsing in Generate artifact template input</li>
+</ul>
+<h4 id="version-561100633">Version 56.1100633</h4>
+<ul>
+<li>Fixed PH35042 – Fixed Array index Out Of Bound failure</li>
+</ul>
+<h4 id="version-561098848">Version 56.1098848</h4>
+<ul>
+<li>Fixed PH34874 – Fixed the issue of ISPF command executions reported as success when it is a failure</li>
+</ul>
+<h4 id="version-56">Version 56</h4>
+<ul>
+<li>Deploy datasets – now accepts DUMMY in pdsmapping target.</li>
+<li>Input in pds mapping field can be of the format src.dataset,DUMMY</li>
+</ul>
+<h4 id="version-55">Version 55</h4>
+<ul>
+<li>Added hidden input to pass Binder API Path for RUNTIME delta deployment to add to LIBPATH. (APAR PH31349)</li>
+<li>Added check box to print debug logs for Deploy and Rollback steps</li>
+<li>Added check box to print each job output in a new page in submit job plugin step (Needs Java 8)</li>
+</ul>
+<h4 id="version-54">Version 54</h4>
+<ul>
+<li>Ported following steps to run from a non-zOS agent as well</li>
+<li>Submit job</li>
+<li>Wait for job</li>
+<li>Moved FTP plugin step into a new plugin ( https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/zos-ftp/ )</li>
+<li>Added permission checks for ISPF work directory and file</li>
+<li>Fixed incompatible code with Java 7 (Earlier versions of this plugin required Java 8. Based on a request, we ported the plugins to run with Java 7 &amp; 8 as well.</li>
+<li>Enhancement on runtime delta deployment</li>
+<li>Fixed exception for HFS deployment and Rollback with new Ant version (That was introduced in UCD 7.1.0.1)</li>
+<li>Minor bug fixes in HFS deployment / Rollback operations</li>
+</ul>
+<h4 id="version-53">Version 53</h4>
+<ul>
+<li>Enhancement for Partial Deployment based on Container Filter</li>
+<li>Fixed exception for HFS Deployment with previous HFS version (PH27636)</li>
+</ul>
+<h4 id="version-52">Version 52</h4>
+<ul>
+<li>PH24188 – Fixed deployment freeze for large component version</li>
+<li>Support for copyTypes with package format v2</li>
+<li>Enhancement to ignore unresolved properties in generate artifacts information step</li>
+</ul>
+<h4 id="note-from-version-51-groovy-string-methods-are-not-interpreted-in-template-input-since-the-code-is-rewritten-in-java"><strong>Note:</strong> From version 51, groovy string methods are not interpreted in Template input since the code is rewritten in Java.</h4>
+<h4 id="version-51">Version 51</h4>
+<ul>
+<li>Rewriting Generate Version Artifact Information groovy program in Java.</li>
+<li>Fixed null pointer exception error when deployType filter is applied to resource with no deployType</li>
+<li>Fixed null pointer exception error when regular expression is used in deployType</li>
+<li>PH23624 – Fixed NoClassDef error for submit job step using passcode authentication</li>
+</ul>
+<h4 id="version-50">Version 50</h4>
+<ul>
+<li>Rewriting Replace Tokens MVS plugin from Groovy to Java for performance improvement</li>
+</ul>
+<h4 id="version-49">Version 49</h4>
+<ul>
+<li>Submit Job groovy plugin rewritten in Java</li>
+<li>Added functionality to delete all contents in the target HFS folder and then deploy the artifacts from UCD version</li>
+<li>Added functionality to determine the toolkit version and call appropriate methods and fixed an issue with rollback for deleted HFS files</li>
+<li>Required Java 8 or above from this plugin version</li>
+</ul>
+<h4 id="version-48">Version 48</h4>
+<ul>
+<li>PH11769- Fix for replace tokens with EAV VTOC volumes &amp; improved performance for new package format</li>
+</ul>
+<h4 id="version-46">Version 46</h4>
+<ul>
+<li>Added functionality for the new package format deploy</li>
+</ul>
+<h4 id="version-45">Version 45</h4>
+<ul>
+<li>Fixing CVE:CVE-2019-4233</li>
+</ul>
+<h4 id="version-44">Version 44</h4>
+<ul>
+<li>Allowing mutiple source and multiple target directories to deploy instead of one HFS Target directory. NOTE: DevOps Deploy server 7.0.3 and the same level of the agent are required for using this HFS feature.</li>
+</ul>
+<h4 id="version-41">Version 41</h4>
+<ul>
+<li>Updated Deploy Data Sets step to support runtime delta deploy. NOTE: DevOps Deploy server 7.0.2 and the same level of the agent is required for using this runtime delta deploy feature.</li>
+</ul>
+<h4 id="version-391001623">Version 39.1001623</h4>
+<ul>
+<li>PH03567 To fix the issue of environment properties getting trimmed in Replace Tokens MVS step</li>
+<li>PH03684 To fix the issue when a REXX/ISPF process that gives out more than 2000+ lines are run from UCD, the response never comes back to the server</li>
+</ul>
+<h4 id="version-39992980">Version 39.992980</h4>
+<ul>
+<li>PH01955 Fixed the issue with deploy datasets failing when we use * with an add and delete of same PDS</li>
+<li>PH01081 Fixed the issue with class not found for JES logger</li>
+</ul>
+<h4 id="version-27864857">Version 27.864857</h4>
+<p>Added support for encrypted input and output properties. Updated Replace Tokens MVS step to preserve ISPF statistics. Fixed bugs.</p>
+<h4 id="version-26813109">Version 26.813109</h4>
+<p>Updated Generate Artifact Information step to support order by.</p>
+<h4 id="version-24800369">Version 24.800369</h4>
+<p>Version 24 includes the following updates:</p>
+<ul>
+<li>A fix for a problem that is related to replacing tokens in VB data sets.</li>
+<li>The Rollback Data Sets step was updated to prevent risky rollbacks.</li>
+</ul>
+<h4 id="version-22787240">Version 22.787240</h4>
+<p>Fixes APAR PI57417. Plug-in now checks the agent settings for acceptance of self-signed certificates.</p>
+<h4 id="version-17692574">Version 17.692574</h4>
+<p>This release includes the following updates:</p>
+<ul>
+<li>A fix for an issue where the deployment data set and rollback data set unnecessarily requires data set ALTER privilege.</li>
+<li>The Generate Artifact Information step now supports sequential data sets and data set deletion.</li>
+<li>The Generate Artifact Information step now includes an option to mark the step as failed when no result is generated.</li>
+<li>A count output property now stores the number of artifacts generated.</li>
+<li>The Replace Tokens MVS step now allows updates to a data set that is opened by other readers. The step uses DISP=SHR to open the data set for output.</li>
+<li>The Submit Job step now supports a default job statement.</li>
+<li>Updated help for steps.</li>
+<li>A fix for an issue where the Submit Job step did not use PassTicket authentication.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Back to ...</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Latest Version</th>
+<th style="text-align: center;">z/OS Utility</th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><a href="../../../">All Plugins</a></td>
+<td style="text-align: center;"><a href="../../">Deploy Plugins</a></td>
+<td style="text-align: center;"><a href="https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/zos-deploy/devops-deploy-zos-deploy-98.1178819.zip">98.1178819</a></td>
+<td style="text-align: center;"><a href="../">Readme</a></td>
+<td style="text-align: center;"><a href="../troubleshooting/">Troubleshooting</a></td>
+<td style="text-align: center;"><a href="../steps/">Steps</a></td>
+<td style="text-align: center;"><a href="../usage/">Usage</a></td>
+<td style="text-align: center;"><a href="../downloads/">Downloads</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+ 
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-hcl md-grid1">
+     <a href="https://www.hcltechsw.com/legal/disclaimer" class="nav-link footer-launch" target="_blank">Disclaimer</a>
+	 <a href="https://www.hcltechsw.com/legal/privacy" class="nav-link footer-launch" target="_blank">Privacy</a>
+	 <a href="https://www.hcltechsw.com/legal/terms-use" class="nav-link footer-launch" target="_blank">Terms of use</a>
+	 
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.indexes", "navigation.top", "navigation.instant", "search.highlight", "search.share", "search.suggest", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+        <script src="../../../javascripts/MkDocs_scCustLangSelect.js"></script>
+      
+        <script src="../../../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
