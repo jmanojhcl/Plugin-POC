@@ -1,0 +1,368 @@
+#Project Information
+#March2023
+site_name: HCLSoftware DevOps Plugins
+site_description: >-
+  A next-gen documentation site for HCLSoftware plugins.
+site_url: https://opensource.hcltechsw.com/product-name
+use_directory_urls: true
+
+# Theme Configuration
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.instant
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+  custom_dir: theme_overrides/
+  static_templates:
+    - partials/comments.html
+  
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+
+  # Static files
+  static_templates:
+    - 404.html
+    
+    
+# Markdown Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+
+extra:
+  analytics: 
+    provider: custom
+    property: G-7LF0XY95M1
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HCL-TECH-SOFTWARE
+  version:
+    provider: mike
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+  prodname: HCL Software 
+  
+  
+# Repository. Change the location as per your product
+repo_url: https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS
+repo_name: IBM-UCx-PLUGIN-DOCS
+edit_uri: edit/main/docs
+
+# Copyright. Change the year as per your product.
+copyright: >-
+  Copyright &copy; 2022, HCL Technologies Limited.
+
+# Customization
+extra_css:
+  - stylesheets/style.css
+extra_javascript:
+    - javascripts/MkDocs_scCustLangSelect.js
+    - javascripts/extra.js
+
+#  - macros
+ # - section-index 
+ 
+ #Install the mkdocs-section-index plugin from https://github.com/oprypin/mkdocs-section-index. This plugin ensures that the parent topic can be linked to a topic so there is consistency when users click on the nav. After the installation, remove the hash symbol from section-index above this para. In the nav below, About and Overview topics are parents and are linked to topics.
+  
+ #Table of contents 
+nav:
+  - Home: index.md
+  - DevOps Build:
+     - UCB/README.md
+     - AccuRev: 
+       - AccuRev: UCB/AccuRev/README.md
+       - Overview: UCB/AccuRev/overview.md
+       - Steps: UCB/AccuRev/settings.md
+       - Downloads: UCB/AccuRev/downloads.md
+  - DevOps Deploy:
+     - UCD/README.md
+     - Ant: 
+       - Ant: UCD/Ant/README.md
+       - Overview: UCD/Ant/overview.md
+       - Steps: UCD/Ant/steps.md
+       - Usage: UCD/Ant/usage.md
+       - Downloads: UCD/Ant/downloads.md
+  - DevOps Release:
+     - UCR/README.md
+     - Ansible: 
+       - Appscan: UCR/ucr-plugin-ansible/README.md
+       - Overview: UCR/ucr-plugin-ansible/overview.md
+       - Steps: UCR/ucr-plugin-ansible/steps.md
+       - Usage: UCR/ucr-plugin-ansible/usage.md
+       - Downloads: UCR/ucr-plugin-ansible/downloads.md
+  - DevOps Velocity:
+     - UCV/README.md
+     - Aha!:
+       - Aha!: UCV/ucv-ext-aha/README.md
+       - Overview: UCV/ucv-ext-aha/overview.md
+       - Usage: UCV/ucv-ext-aha/usage.md
+       - Downloads: UCV/ucv-ext-aha/downloads.md
+
+     - Apache JMeter:
+       - Apache JMeter: UCV/ucv-ext-jmeter/README.md
+       - Overview: UCV/ucv-ext-jmeter/overview.md
+       - Usage: UCV/ucv-ext-jmeter/usage.md
+       - Downloads: UCV/ucv-ext-jmeter/downloads.md
+     - Azure DevOps: 
+       - Appscan: UCV/ucv-ext-azure/README.md
+       - Overview: UCV/ucv-ext-azure/overview.md
+       - Usage: UCV/ucv-ext-azure/usage.md
+       - Downloads: UCV/ucv-ext-azure/downloads.md
+     - BitBucket Cloud:
+       - BitBucket Cloud: UCV/ucv-ext-bitbucket-cloud/README.md
+       - Overview: UCV/ucv-ext-bitbucket-cloud/overview.md
+       - Usage: UCV/ucv-ext-bitbucket-cloud/usage.md
+       - Downloads: UCV/ucv-ext-bitbucket-cloud/downloads.md
+     - BitBucket Server:
+       - BitBucket Server: UCV/ucv-ext-bitbucket-server/README.md
+       - Overview: UCV/ucv-ext-bitbucket-server/overview.md
+       - Usage: UCV/ucv-ext-bitbucket-server/usage.md
+       - Downloads: UCV/ucv-ext-bitbucket-server/downloads.md
+     - Black Duck:
+       - Black Duck: UCV/ucv-ext-blackduck/README.md
+       - Overview: UCV/ucv-ext-blackduck/overview.md
+       - Usage: UCV/ucv-ext-blackduck/usage.md
+       - Downloads: UCV/ucv-ext-blackduck/downloads.md
+     - Bottleneck Detection:
+       - Bottleneck Detection: UCV/ucv-ext-bottleneck-detection/README.md
+       - Overview: UCV/ucv-ext-bottleneck-detection/overview.md
+       - Usage: UCV/ucv-ext-bottleneck-detection/usage.md
+       - Downloads: UCV/ucv-ext-bottleneck-detection/downloads.md
+     - CircleCI:
+       - CircleCI: UCV/ucv-ext-circleci/README.md
+       - Overview: UCV/ucv-ext-circleci/overview.md
+       - Usage: UCV/ucv-ext-circleci/usage.md
+       - Downloads: UCV/ucv-ext-circleci/downloads.md
+     - Code Coverage:
+       - Code Coverage: UCV/ucv-ext-coverage-core/README.md
+       - Overview: UCV/ucv-ext-coverage-core/overview.md
+       - Usage: UCV/ucv-ext-coverage-core/usage.md
+       - Downloads: UCV/ucv-ext-coverage-core/downloads.md
+     - CollabNet VersionOne:
+       - CollabNet VersionOne: UCV/ucv-ext-versionone/README.md
+       - Overview: UCV/ucv-ext-versionone/overview.md
+       - Usage: UCV/ucv-ext-versionone/usage.md
+       - Downloads: UCV/ucv-ext-versionone/downloads.md
+     - Cucumber:
+       - Cucumber: UCV/ucv-ext-cucumber/README.md
+       - Overview: UCV/ucv-ext-cucumber/overview.md
+       - Usage: UCV/ucv-ext-cucumber/usage.md
+       - Downloads: UCV/ucv-ext-cucumber/downloads.md
+     - Cypress:
+       - Cypress: UCV/ucv-ext-cypress/README.md
+       - Overview: UCV/ucv-ext-cypress/overview.md
+       - Usage: UCV/ucv-ext-cypress/usage.md
+       - Downloads: UCV/ucv-ext-cypress/downloads.md
+     - DevOps Build:
+       - DevOps Build: UCV/ucv-ext-build/README.md
+       - Overview: UCV/ucv-ext-build/overview.md
+       - Usage: UCV/ucv-ext-build/usage.md
+       - Downloads: UCV/ucv-ext-build/downloads.md
+     - DevOps Control:
+       - DevOps Control: UCV/ucv-ext-control/README.md
+       - Overview: UCV/ucv-ext-control/overview.md
+       - Usage: UCV/ucv-ext-control/usage.md
+       - Downloads: UCV/ucv-ext-control/downloads.md
+     - DevOps Deploy:
+       - DevOps Deploy: UCV/ucv-ext-ucd/README.md
+       - Overview: UCV/ucv-ext-ucd/overview.md
+       - Usage: UCV/ucv-ext-ucd/usage.md
+       - Downloads: UCV/ucv-ext-ucd/downloads.md
+     - DevOps Plan:
+       - DevOps Plan: UCV/ucv-ext-plan/README.md
+       - Overview: UCV/ucv-ext-plan/overview.md
+       - Usage: UCV/ucv-ext-plan/usage.md
+       - Downloads: UCV/ucv-ext-plan/downloads.md
+     - DevOps Test:
+       - DevOps Test: UCV/ucv-ext-onetest/README.md
+       - Overview: UCV/ucv-ext-onetest/overview.md
+       - Usage: UCV/ucv-ext-onetest/usage.md
+       - Downloads: UCV/ucv-ext-onetest/downloads.md
+     - DevOps Test Hub:
+       - DevOps Test Hub: UCV/ucv-ext-onetest-server/README.md
+       - Overview: UCV/ucv-ext-onetest-server/overview.md
+       - Usage: UCV/ucv-ext-onetest-server/usage.md
+       - Downloads: UCV/ucv-ext-onetest-server/downloads.md
+     - Digital.ai Agility:
+       - Digital.ai Agility: UCV/ucv-ext-agility/README.md
+       - Overview: UCV/ucv-ext-agility/overview.md
+       - Usage: UCV/ucv-ext-agility/usage.md
+       - Downloads: UCV/ucv-ext-agility/downloads.md
+     - Fortify SSC:
+       - Fortify SSC: UCV/ucv-ext-fortify-ssc/README.md
+       - Overview: UCV/ucv-ext-fortify-ssc/overview.md
+       - Usage: UCV/ucv-ext-fortify-ssc/usage.md
+       - Downloads: UCV/ucv-ext-fortify-ssc/downloads.md
+     - GenAI summary release IBM:
+       - GenAI summary release IBM: UCV/ucv-ext-release-summary-ibm/README.md
+       - Overview: UCV/ucv-ext-release-summary-ibm/overview.md
+       - Usage: UCV/ucv-ext-release-summary-ibm/usage.md
+       - Downloads: UCV/ucv-ext-release-summary-ibm/downloads.md
+     - GenAI summary release OpenAI:
+       - GenAI summary release OpenAI: UCV/ucv-ext-release-summary-openai/README.md
+       - Overview: UCV/ucv-ext-release-summary-openai/overview.md
+       - Usage: UCV/ucv-ext-release-summary-openai/usage.md
+       - Downloads: UCV/ucv-ext-release-summary-openai/downloads.md
+     - GitHub:
+       - GitHub: UCV/ucv-ext-github/README.md
+       - Overview: UCV/ucv-ext-github/overview.md
+       - Usage: UCV/ucv-ext-github/usage.md
+       - Downloads: UCV/ucv-ext-github/downloads.md
+     - GitHub Dependabot:
+       - GitHub Dependabot: UCV/ucv-ext-dependabot/README.md
+       - Overview: UCV/ucv-ext-dependabot/overview.md
+       - Usage: UCV/ucv-ext-dependabot/usage.md
+       - Downloads: UCV/ucv-ext-dependabot/downloads.md
+     - GitLab:
+       - GitLab: UCV/ucv-ext-gitlab/README.md
+       - Overview: UCV/ucv-ext-gitlab/overview.md
+       - Usage: UCV/ucv-ext-gitlab/usage.md
+       - Downloads: UCV/ucv-ext-gitlab/downloads.md
+     - HCL AppScan Enterprise (ASE):
+       - HCL AppScan Enterprise (ASE): UCV/ucv-ext-appscan/README.md
+       - Overview: UCV/ucv-ext-appscan/overview.md
+       - Usage: UCV/ucv-ext-appscan/usage.md
+       - Downloads: UCV/ucv-ext-appscan/downloads.md
+     - HCL AppScan on Cloud (ASoC):
+       - HCL AppScan on Cloud (ASoC): UCV/ucv-ext-asoc/README.md
+       - Overview: UCV/ucv-ext-asoc/overview.md
+       - Usage: UCV/ucv-ext-asoc/usage.md
+       - Downloads: UCV/ucv-ext-asoc/downloads.md
+     - Handlebar Reporter:
+       - Handlebar Reporter: UCV/ucv-ext-handlebars-reporter/README.md
+       - Overview: UCV/ucv-ext-handlebars-reporter/overview.md
+       - Usage: UCV/ucv-ext-handlebars-reporter/usage.md
+       - Downloads: UCV/ucv-ext-handlebars-reporter/downloads.md
+     - IBM DevOps Test Hub:
+       - IBM DevOps Test Hub: UCV/ucv-ext-rtas/README.md
+       - Overview: UCV/ucv-ext-rtas/overview.md
+       - Usage: UCV/ucv-ext-rtas/usage.md
+       - Downloads: UCV/ucv-ext-rtas/downloads.md
+     - IBM Engineering Workflow Management (EWM):
+       - IBM DevOps Test Hub: UCV/ucv-ext-ewm/README.md
+       - Overview: UCV/ucv-ext-ewm/overview.md
+       - Usage: UCV/ucv-ext-ewm/usage.md
+       - Downloads: UCV/ucv-ext-ewm/downloads.md
+     - Jenkins:
+       - Jenkins: UCV/ucv-ext-jenkins/README.md
+       - Overview: UCV/ucv-ext-jenkins/overview.md
+       - Usage: UCV/ucv-ext-jenkins/usage.md
+       - Downloads: UCV/ucv-ext-jenkins/downloads.md
+     - Jenkins (legacy):
+       - Jenkins (legacy): UCV/urbancode-velocity/README.md
+       - Overview: UCV/urbancode-velocity/overview.md
+       - Usage: UCV/urbancode-velocity/usage.md
+       - Downloads: UCV/urbancode-velocity/downloads.md
+     - JUnit:
+       - JUnit: UCV/ucv-ext-junit/README.md
+       - Overview: UCV/ucv-ext-junit/overview.md
+       - Usage: UCV/ucv-ext-junit/usage.md
+       - Downloads: UCV/ucv-ext-junit/downloads.md
+     - Jira:
+       - Jira: UCV/ucv-ext-jira/README.md
+       - Overview: UCV/ucv-ext-jira/overview.md
+       - Usage: UCV/ucv-ext-jira/usage.md
+       - Downloads: UCV/ucv-ext-jira/downloads.md
+     - Jira Service Management:
+       - Jira Service Management: UCV/ucv-ext-jira-service-management/README.md
+       - Overview: UCV/ucv-ext-jira-service-management/overview.md
+       - Usage: UCV/ucv-ext-jira-service-management/usage.md
+       - Downloads: UCV/ucv-ext-jira-service-management/downloads.md
+     - Microsoft Visual Studio Testing:
+       - Microsoft Visual Studio Testing: UCV/ucv-ext-vs-quality/README.md
+       - Overview: UCV/ucv-ext-vs-quality/overview.md
+       - Usage: UCV/ucv-ext-vs-quality/usage.md
+       - Downloads: UCV/ucv-ext-vs-quality/downloads.md
+     - Milestone Risk Estimator:
+       - Milestone Risk Estimator: UCV/ucv-ext-milestone-risk-estimator/README.md
+       - Overview: UCV/ucv-ext-milestone-risk-estimator/overview.md
+       - Usage: UCV/ucv-ext-milestone-risk-estimator/usage.md
+       - Downloads: UCV/ucv-ext-milestone-risk-estimator/downloads.md
+     - Njs-Unit:
+       - Njs-Unit: UCV/ucv-ext-njs-unit/README.md
+       - Overview: UCV/ucv-ext-njs-unit/overview.md
+       - Usage: UCV/ucv-ext-njs-unit/usage.md
+       - Downloads: UCV/ucv-ext-njs-unit/downloads.md
+     - Planview Leankit:
+       - Planview Leankit: UCV/ucv-ext-leankit/README.md
+       - Overview: UCV/ucv-ext-leankit/overview.md
+       - Usage: UCV/ucv-ext-leankit/usage.md
+       - Downloads: UCV/ucv-ext-leankit/downloads.md
+     - Rally:
+       - Rally: UCV/ucv-ext-rally/README.md
+       - Overview: UCV/ucv-ext-rally/overview.md
+       - Usage: UCV/ucv-ext-rally/usage.md
+       - Downloads: UCV/ucv-ext-rally/downloads.md
+     - SAP ChaRM:
+       - SAP ChaRM: UCV/ucv-ext-sap-charm/README.md
+       - Overview: UCV/ucv-ext-sap-charm/overview.md
+       - Usage: UCV/ucv-ext-sap-charm/usage.md
+       - Downloads: UCV/ucv-ext-sap-charm/downloads.md
+     - Selenium:
+       - Selenium: UCV/selenium-ucv/README.md
+     - ServiceNow:
+       - ServiceNow: UCV/ucv-ext-servicenow/README.md
+       - Overview: UCV/ucv-ext-servicenow/overview.md
+       - Usage: UCV/ucv-ext-servicenow/usage.md
+       - Downloads: UCV/ucv-ext-servicenow/downloads.md
+     - Shell:
+       - Shell: UCV/ucv-ext-shell/README.md
+       - Overview: UCV/ucv-ext-shell/overview.md
+       - Usage: UCV/ucv-ext-shell/usage.md
+       - Automation Tasks: UCV/ucv-ext-shell/Automation-task.md
+       - Downloads: UCV/ucv-ext-shell/downloads.md
+     - Snyk:
+       - Snyk: UCV/ucv-ext-snyk/README.md
+       - Overview: UCV/ucv-ext-snyk/overview.md
+       - Usage: UCV/ucv-ext-snyk/usage.md
+       - Downloads: UCV/ucv-ext-snyk/downloads.md
+     - SonarQube:
+       - SonarQube: UCV/ucv-ext-sonarqube/README.md
+       - Overview: UCV/ucv-ext-sonarqube/overview.md
+       - Cretificate: UCV/ucv-ext-sonarqube/certificate.md
+       - Scripts: UCV/ucv-ext-sonarqube/scripts.md
+       - Usage: UCV/ucv-ext-sonarqube/usage.md
+       - Downloads: UCV/ucv-ext-sonarqube/downloads.md
+     - TestComplete:
+       - TestComplete: UCV/testcomplete-ucv/README.md
+     - TestNG:
+       - TestNG: UCV/ucv-ext-testng/README.md
+       - Overview: UCV/ucv-ext-testng/overview.md
+       - Usage: UCV/ucv-ext-testng/usage.md
+       - Downloads: UCV/ucv-ext-testng/downloads.md
+     - Twistlock:
+       - Twistlock: UCV/ucv-ext-twistlock/README.md
+       - Overview: UCV/ucv-ext-twistlock/overview.md
+       - Usage: UCV/ucv-ext-twistlock/usage.md
+       - Downloads: UCV/ucv-ext-twistlock/downloads.md
+     - WhiteSource:
+       - WhiteSource: UCV/ucv-ext-whitesource/README.md
+       - Overview: UCV/ucv-ext-whitesource/overview.md
+       - Usage: UCV/ucv-ext-whitesource/usage.md
+       - Downloads: UCV/ucv-ext-whitesource/downloads.md
+     - YAML Executor:
+       - YAML Executor: UCV/ucv-ext-yaml-executor/README.md
+       - Overview: UCV/ucv-ext-yaml-executor/overview.md
+       - Steps: UCV/ucv-ext-yaml-executor/steps.md
+       - Plugin configurations: UCV/ucv-ext-yaml-executor/plugin-configurations.md
+       - Downloads: UCV/ucv-ext-yaml-executor/downloads.md
+     
+  - Notices: notices.md
+  
