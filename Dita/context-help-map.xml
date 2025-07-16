@@ -11,5 +11,10 @@
                path="UCV/ucv-ext-appscan/usage.html"/>
    <appContext helpID="hcl-appscan-enterprise-ase---downloads"
                path="UCV/ucv-ext-appscan/downloads.html"/>
+   <appContext helpID="hcl-appscan-on-cloud-asoc" path="UCV/ucv-ext-asoc/README.html"/>
+   <appContext helpID="hcl-appscan-on-cloud-asoc---overview"
+               path="UCV/ucv-ext-asoc/overview.html"/>
+   <appContext helpID="hcl-appscan-on-cloud-asoc---usage"
+               path="UCV/ucv-ext-asoc/usage.html"/>
    <appContext helpID="devops-build" path="UCB/DevOps_Build.html"/>
 </map>

@@ -1421,7 +1421,7 @@ html[dir='rtl'] .wh_top_menu ul li:hover>ul {
 .custom_dropdown {
 	border: solid 1px  #CCC;
     border-radius: 3px 3px;
-    width: 200px;
+    width: auto;
     height: 2.2em;
 	color: #007A87;
     position: absolute;
