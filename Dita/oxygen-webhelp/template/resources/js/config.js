@@ -27,29 +27,29 @@ export const CHANGE_LANG = "en"; //Mention the language you want to generate the
 export const URLPATH_VARY = "";
 export const openSourceDomain = ""; /*Mention base URL path with product name, only for open source portal*/
 
-export const LATEST_VERSION = "11.0.3"; //Mention the latest version name from the VERSION_LIST.
+export const LATEST_VERSION = ""; //Mention the latest version name from the VERSION_LIST.
 
 //Change Product Name to your actual product name. ex: Digital Experience
 //Keep the latest version always at first, after "0" : "product Name".
 export const VERSION_LIST = {
-   "0" : "DevOps Test Hub versions",
-    "11.0.3" : "11.0.3",
-    "11.0.2" : "11.0.2",
-    "11.0.1" : "11.0.1",
-    "11.0.0" : "11.0.0",
-    "10.5.4" : "10.5.4",
-    "10.5.3" : "10.5.3",
-    "10.5.2" : "10.5.2",
-    "10.5.1" : "10.5.1",
-    "10.5.0" : "10.5.0",
-    "10.2.3" : "10.2.3",
-    "10.2.2" : "10.2.2",
-    "10.2.1" : "10.2.1",
-    "10.2.0" : "10.2.0",
-    "10.1.3" : "10.1.3",
-    "10.1.2" : "10.1.2",
-    "10.1.1" : "10.1.1",
-    "10.1" : "10.1.0"
+//    "0" : "DevOps Test Hub versions",
+//     "11.0.3" : "11.0.3",
+//     "11.0.2" : "11.0.2",
+//     "11.0.1" : "11.0.1",
+//     "11.0.0" : "11.0.0",
+//     "10.5.4" : "10.5.4",
+//     "10.5.3" : "10.5.3",
+//     "10.5.2" : "10.5.2",
+//     "10.5.1" : "10.5.1",
+//     "10.5.0" : "10.5.0",
+//     "10.2.3" : "10.2.3",
+//     "10.2.2" : "10.2.2",
+//     "10.2.1" : "10.2.1",
+//     "10.2.0" : "10.2.0",
+//     "10.1.3" : "10.1.3",
+//     "10.1.2" : "10.1.2",
+//     "10.1.1" : "10.1.1",
+//     "10.1" : "10.1.0"
 }
 
 export const VERSION_LIST_URL = {
