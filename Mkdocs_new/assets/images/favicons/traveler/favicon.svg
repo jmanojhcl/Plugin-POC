@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 34.979 34.979"
+   fill="none"
+   version="1.1"
+   id="svg21"
+   sodipodi:docname="traveler_logo.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="37.107979"
+     inkscape:cx="17.4895"
+     inkscape:cy="8.8794919"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg21" />
+  <rect
+     x="1.3286099"
+     y="1.32874"
+     width="32.3218"
+     height="32.3218"
+     fill="#1c1c1c"
+     id="rect2" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="M 1.32872,0 H 33.6503 c 0.7339,0 1.3287,0.59489 1.3287,1.32872 V 33.6503 c 0,0.7339 -0.5948,1.3287 -1.3287,1.3287 H 1.32872 C 0.59489,34.979 0,34.3842 0,33.6503 V 1.32872 C 0,0.59489 0.59489,0 1.32872,0 Z M 33.6503,33.6503 V 1.32872 H 1.32872 V 33.6503 Z"
+     fill="#1c1c1c"
+     id="path4" />
+  <path
+     d="M 20.2732,12.722 15.7337,22.7636 10.1252,22.7978 17.1027,7.29874 Z"
+     fill="#8d8d8d"
+     id="path6" />
+  <path
+     d="M 29.4025,13.6579 24.3882,24.7983 16.5054,25.4571 24.986,6.62878 Z"
+     fill="#8d8d8d"
+     id="path8" />
+  <path
+     d="M 12.8898,11.9173 9.15551,20.2184 3.92578,19.7339 9.34497,7.6904 Z"
+     fill="url(#paint0_linear_532_105)"
+     id="path10"
+     style="fill:url(#paint0_linear_532_105)" />
+  <path
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     d="m 26.7969,24.5156 c 0,-0.5523 0.4477,-1 1,-1 h 2.9219 c 0.5522,0 1,0.4477 1,1 v 6.2032 c 0,0.5522 -0.4478,1 -1,1 h -2.9219 c -0.5523,0 -1,-0.4478 -1,-1 z m 0.5469,-0.4531 h 3.8281 v 6.0156 h -3.8281 z m 1.914,7.1094 c 0.151,0 0.2734,-0.1224 0.2734,-0.2735 0,-0.151 -0.1224,-0.2734 -0.2734,-0.2734 -0.151,0 -0.2734,0.1224 -0.2734,0.2734 0,0.1511 0.1224,0.2735 0.2734,0.2735 z"
+     fill="#d8d8d8"
+     id="path12" />
+  <defs
+     id="defs19">
+    <linearGradient
+       id="paint0_linear_532_105"
+       x1="4.3129902"
+       y1="19.164301"
+       x2="12.3723"
+       y2="19.670401"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#EEA600"
+         id="stop14" />
+      <stop
+         offset="1"
+         stop-color="#FFDF41"
+         id="stop16" />
+    </linearGradient>
+  </defs>
+</svg>

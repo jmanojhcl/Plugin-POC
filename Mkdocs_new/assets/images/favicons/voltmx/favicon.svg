@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 497.96999 523.33"
+   version="1.1"
+   id="svg21"
+   sodipodi:docname="volt_mx_logo.svg"
+   width="16"
+   height="16"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.0541346"
+     inkscape:cx="249.49375"
+     inkscape:cy="261.35182"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg21" />
+  <defs
+     id="defs10">
+    <style
+       id="style2">.cls-1{fill:#93a2ad;}.cls-2{fill:url(#linear-gradient);}.cls-3{fill:url(#linear-gradient-2);}</style>
+    <linearGradient
+       id="linear-gradient"
+       x1="108.18"
+       y1="-2326.0801"
+       x2="552.32001"
+       y2="-2326.0801"
+       gradientTransform="matrix(1,0,0,-1,0,-1936.6)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#789df4"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#d694f9"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-2"
+       x1="407.04999"
+       y1="570.19"
+       x2="606.15002"
+       y2="570.19"
+       xlink:href="#linear-gradient"
+       gradientTransform="translate(108.18,95.5)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linear-gradient"
+       id="linearGradient840"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,-1,108.18,-1841.1)"
+       x1="108.18"
+       y1="-2326.0801"
+       x2="552.32001"
+       y2="-2326.0801" />
+  </defs>
+  <g
+     id="Layer_3"
+     data-name="Layer 3"
+     transform="translate(-108.18,-95.5)">
+    <polygon
+       class="cls-1"
+       points="208.73,166.45 165.98,318 366.59,261.39 458.71,97.09 460.14,95.5 "
+       id="polygon12" />
+    <polygon
+       class="cls-1"
+       points="392.08,478.1 302.79,504.9 264.58,618.83 "
+       id="polygon14" />
+    <polygon
+       class="cls-2"
+       points="442.8,423.2 108.18,523.64 151.11,372.72 552.32,255.32 "
+       id="polygon16"
+       style="fill:url(#linearGradient840)" />
+    <path
+       class="cls-3"
+       d="m 407.05,523.64 h 27.27 l 22.21,36 22.21,-36 H 506 v 93.1 h -25.66 v -53.47 l -23.81,36.45 H 456 l -23.67,-36.31 v 53.33 h -25.28 z m 197.76,0 -30.58,45.36 31.92,47.75 h -29.67 l -17.82,-28.2 -17.95,28.2 h -29 L 543.63,569.4 513,523.64 h 29.7 l 16.36,26.2 16.76,-26.2 z"
+       id="path18"
+       style="fill:url(#linear-gradient-2)" />
+  </g>
+</svg>

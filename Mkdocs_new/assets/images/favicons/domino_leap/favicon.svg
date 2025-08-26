@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 609.89 399.36999"
+   version="1.1"
+   id="svg29"
+   sodipodi:docname="favicon.svg"
+   width="16"
+   height="16"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview31"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="2.1282526"
+     inkscape:cx="304.94501"
+     inkscape:cy="199.45941"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg29">
+    <sodipodi:guide
+       position="-52.219999,556.84998"
+       orientation="0,714.33002"
+       id="guide848" />
+    <sodipodi:guide
+       position="662.11,556.84998"
+       orientation="714.33002,0"
+       id="guide850" />
+    <sodipodi:guide
+       position="662.11,-157.48002"
+       orientation="0,-714.33002"
+       id="guide852" />
+    <sodipodi:guide
+       position="-52.219999,-157.48002"
+       orientation="-714.33002,0"
+       id="guide854" />
+  </sodipodi:namedview>
+  <defs
+     id="defs17">
+    <style
+       id="style2">.f{fill:url(#e);}.g{fill:#93a2ad;}</style>
+    <linearGradient
+       id="e"
+       x1="321.88"
+       y1="12179.57"
+       x2="662.10999"
+       y2="12179.57"
+       gradientTransform="matrix(1,0,0,-1,52.22,12643.56)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#ffdf41"
+         id="stop4" />
+      <stop
+         offset=".26"
+         stop-color="#fedb3d"
+         id="stop6" />
+      <stop
+         offset=".5"
+         stop-color="#fbd131"
+         id="stop8" />
+      <stop
+         offset=".74"
+         stop-color="#f6c11e"
+         id="stop10" />
+      <stop
+         offset=".97"
+         stop-color="#efa904"
+         id="stop12" />
+      <stop
+         offset="1"
+         stop-color="#eea600"
+         id="stop14" />
+    </linearGradient>
+  </defs>
+  <g
+     id="a"
+     transform="translate(-52.22,-157.48)" />
+  <g
+     id="b"
+     transform="translate(-52.22,-157.48)" />
+  <g
+     id="c"
+     transform="translate(-52.22,-157.48)" />
+  <g
+     id="d"
+     transform="translate(-52.22,-157.48)">
+    <g
+       id="g26">
+      <polygon
+         class="g"
+         points="291.91,556.85 216.53,489.02 321.81,256.83 188.4,256.83 52.22,556.85 "
+         id="polygon22" />
+      <polygon
+         class="f"
+         points="321.88,256.83 512.05,256.83 421.99,455.53 583.89,455.53 541.73,419.3 662.11,157.48 366.8,157.48 "
+         id="polygon24"
+         style="fill:url(#e)" />
+    </g>
+  </g>
+</svg>
