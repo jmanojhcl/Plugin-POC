@@ -1015,6 +1015,24 @@ function OptanonWrapper() { }
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#for-configuring-aha" class="md-nav__link">
+    <span class="md-ellipsis">
+      For configuring Aha!:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linking" class="md-nav__link">
+    <span class="md-ellipsis">
+      linking:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#using-business-values-information-in-vsm" class="md-nav__link">
     <span class="md-ellipsis">
       Using Business Values information in VSM
@@ -3952,6 +3970,24 @@ function OptanonWrapper() { }
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#for-configuring-aha" class="md-nav__link">
+    <span class="md-ellipsis">
+      For configuring Aha!:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linking" class="md-nav__link">
+    <span class="md-ellipsis">
+      linking:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#using-business-values-information-in-vsm" class="md-nav__link">
     <span class="md-ellipsis">
       Using Business Values information in VSM
@@ -4064,13 +4100,12 @@ function OptanonWrapper() { }
 </ul>
 <p><img alt="" src="../media/picture4.png" /></p>
 <h2 id="configuration-properties">Configuration properties</h2>
-<p>In order to use Business Value features of Aha! there is configuration required in Aha! and IBM DevOps Velocity (Velocity) product.</p>
-<p>For configuring Aha!</p>
+<p>In order to use Business Value features of Aha! there is configuration required in Aha! and HCL DevOps Velocity (Velocity) product.</p>
+<h3 id="for-configuring-aha">For configuring Aha!:</h3>
 <ul>
-<li>It requires that you setup a Jira integration in your AHA! Server. Here are the instructions provided by AHA! For their Jira integration: <a href="https://www.aha.io/support/roadmaps/integrations/jira/jira-integration-version-2">AHA Jira Integration</a> and here is what you will see and where to configure</li>
+<li>It requires that you setup a Jira integration in your AHA! Server. Here are the instructions provided by AHA! For their Jira integration: <a href="https://www.aha.io/support/roadmaps/integrations/jira/jira-integration-version-2">AHA Jira Integration</a> and here is what you will see and where to configure it in AHA:</li>
 </ul>
-<p>it in AHA:
-<img alt="" src="../media/Picture1.png" /></p>
+<p><img alt="" src="../media/Picture1.png" /></p>
 <ul>
 <li>
 <p>After setting up an AHA! Jira integration, you can then refer back to the AHA! Documentation on how to link AHA! Items with Jira items: <a href="https://www.aha.io/support/roadmaps/integrations/jira/jira-integration-version-2">AHA! Jira documentation</a></p>
@@ -4081,11 +4116,13 @@ function OptanonWrapper() { }
 <li>After you have linking between AHA! Features and Jira issues, your features in AHA! will show that
 Also notice the “Product Value” field (which is set to 10 in the picture). This is the data that the Velocity AHA! Integration will import. So, your Jira linked features in AHA! will need to be configured with product values (which is the entire point of the Velocity AHA! integration.)</li>
 </ul>
-<p>linking:
-<img alt="" src="../media/Picture2.png" />
-* The second prerequisite to configuring the Velocity AHA! Integration is that you will need a Velocity Jira integration that is pulling in the Jira issues to which your AHA features are linked (https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCV/ucv-ext-jira/).
-* This integration needs to be created before you setup your AHA! Integration. The AHA! Integration will use the imported Jira issues and add the “Product Value” coming from AHA! as a new field on our issues in Velocity called “Business Value”.
-* After your Velocity Jira integration is setup and importing your issues that your AHA! Jira integration is linked to, you can now setup your Velocity AHA! integration. All you need for this is the URL of your AHA! server and an API token from AHA!</p>
+<p><img alt="" src="../media/Picture2.png" /></p>
+<h3 id="linking">linking:</h3>
+<ul>
+<li>The second prerequisite to configuring the Velocity AHA! Integration is that you will need a Velocity Jira integration that is pulling in the Jira issues to which your AHA features are linked. See <a href="../../ucv-ext-jira/">Jira plugin documentation</a>.</li>
+<li>This integration needs to be created before you setup your AHA! Integration. The AHA! Integration will use the imported Jira issues and add the “Product Value” coming from AHA! as a new field on our issues in Velocity called “Business Value”.</li>
+<li>After your Velocity Jira integration is setup and importing your issues that your AHA! Jira integration is linked to, you can now setup your Velocity AHA! integration. All you need for this is the URL of your AHA! server and an API token from AHA!</li>
+</ul>
 <h3 id="using-business-values-information-in-vsm">Using Business Values information in VSM</h3>
 <p>Once the Aha! plug-in has been executed successfully; it is possible to observe business values from Aha! product into VSM. Perform the following steps to add the metrics in the value stream.</p>
 <ol>
@@ -4236,7 +4273,7 @@ Also notice the “Product Value” field (which is set to 10 in the picture). T
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 26, 2025 11:34:56 UTC">August 26, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 26, 2025 14:09:55 UTC">August 26, 2025</span>
   </span>
 
     
