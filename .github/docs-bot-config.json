@@ -1,0 +1,75 @@
+{
+  "_comment": "Docs PR Review Bot configuration. All fields are optional.",
+
+  "disabled_rules": [],
+
+  "max_findings_per_file": 50,
+
+  "max_steps": 8,
+
+  "max_state_fingerprints": 3000,
+
+  "post_review": true,
+
+  "_rule_reference": {
+    "dita_structure": {
+      "DITA000": "XML parse error",
+      "DITA001": "Root topic missing id attribute",
+      "DITA002": "Missing or empty title element",
+      "DITA003": "Missing or over-long shortdesc",
+      "DITA004": "Body element mismatch (conbody/taskbody/refbody)",
+      "DITA005": "step missing cmd element",
+      "DITA006": "image missing alt attribute",
+      "DITA007": "xref or link missing href attribute",
+      "DITA008": "section missing id or title",
+      "DITA009": "Task uses ol instead of steps",
+      "DITA010": "note missing type attribute",
+      "DITA011": "table missing title",
+      "DITA012": "fig missing title",
+      "DITA013": "Root topic missing xml:lang"
+    },
+    "ibm_style": {
+      "IBM001": "Minimizing language (easy, simply, just, ...)",
+      "IBM002": "Use of 'please'",
+      "IBM003": "'utilize' should be 'use'",
+      "IBM004": "'in order to' should be 'to'",
+      "IBM005": "Vague 'etc.'",
+      "IBM006": "'click on' should be 'click'",
+      "IBM007": "Spatial references (above/below) instead of xref",
+      "IBM008": "First-person plural (we/our/us)",
+      "IBM009": "'allows you to' phrasing",
+      "IBM010": "Contractions",
+      "IBM011": "Future tense",
+      "IBM012": "Verbose phrases",
+      "IBM013": "Nominalizations",
+      "IBM014": "'and/or' ambiguity",
+      "IBM015": "'press the Enter key' should be 'press Enter'",
+      "IBM016": "'desired' should be a precise word",
+      "IBM017": "Throat-clearing phrases",
+      "IBM018": "Vague intensifiers",
+      "IBM019": "Gendered pronouns",
+      "IBM020": "Unsupported feature notice should use note element"
+    },
+    "grammar": {
+      "GRM001": "Duplicate words",
+      "GRM002": "Article 'a' before vowel sound",
+      "GRM003": "Extra periods or ellipsis",
+      "GRM004": "Passive voice",
+      "GRM005": "Multiple consecutive spaces",
+      "GRM006": "Compound word style check"
+    }
+  },
+
+  "_examples": {
+    "disable_specific_rules": {
+      "disabled_rules": ["IBM010", "GRM004"],
+      "_note": "Disable contractions and passive-voice checks for this repo"
+    },
+    "reduce_noise": {
+      "max_findings_per_file": 20,
+      "max_steps": 5,
+      "post_review": false,
+      "_note": "Only post a comment, do not submit a formal review"
+    }
+  }
+}

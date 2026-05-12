@@ -1,0 +1,8 @@
+# Docs PR Review Bot — Python dependencies
+# The bot uses only the Python standard library (urllib, xml.etree, re, json, etc.)
+# so no third-party packages are required at runtime.
+#
+# The packages below are optional and used only for local development / testing:
+
+# Local testing helpers (not needed in CI)
+pytest>=7.4

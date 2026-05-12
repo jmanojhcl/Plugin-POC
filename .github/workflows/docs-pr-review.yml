@@ -1,0 +1,62 @@
+name: Docs PR Review Bot
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - '**/*.dita'
+      - '**/*.ditamap'
+      - '**/*.ditaval'
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate-docs:
+    name: Validate DITA Documentation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-docs-bot
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: pip install -r .github/scripts/requirements.txt
+
+      - name: Get changed DITA files
+        id: changed-files
+        run: |
+          git diff --name-only origin/${{ github.base_ref }}...HEAD \
+            -- '*.dita' '*.ditamap' '*.ditaval' \
+            | tee changed_files.txt
+          echo "count=$(wc -l < changed_files.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Run docs validation bot
+        if: steps.changed-files.outputs.count != '0'
+        run: python .github/scripts/docs_bot.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.number }}
+          REPO: ${{ github.repository }}
+          CHANGED_FILES_PATH: changed_files.txt
+          BOT_CONFIG_PATH: .github/docs-bot-config.json
+
+      - name: No DITA changes detected
+        if: steps.changed-files.outputs.count == '0'
+        run: echo "No DITA files changed — skipping validation."
