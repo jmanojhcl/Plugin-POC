@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_mcp_tools">
+    <title>Getting Started with the MCP server in <ph
+            conref="../../prodnames/topics/prodnames.dita#prodnames/DOV_short"/>: URL and Tools </title>
+    <shortdesc> You can find information about the connection endpoint for the Model Context
+        Protocol (MCP) server in <ph
+            conref="../../prodnames/topics/prodnames.dita#prodnames/DOV_title"/> and explore the
+        available tools for accessing application data, workflows, and metrics. </shortdesc>
+    
+    <conbody>
+        
+        <section>
+            <title>MCP Connection URL</title>
+            <p> You must use the following endpoint to connect to the MCP server in <ph
+                    conref="../../prodnames/topics/prodnames.dita#prodnames/DOV_abr"/>: </p>
+            <codeblock>https://&lt;velocity_hostname&gt;/mcp</codeblock>
+            <p> where, you must replace  <codeph>&lt;velocity_hostname&gt;</codeph> with your <ph
+                    conref="../../prodnames/topics/prodnames.dita#prodnames/DOV_abr"/> server
+                hostname. </p>
+        </section>
+        
+        <section>
+            <title>MCP Tools</title>
+            <p>
+                The following tools are available through the MCP endpoint:
+            </p>
+            
+            <table colsep="1" rowsep="1" frame="all">
+                <tgroup cols="4">
+                    <thead>
+                        <row>
+                            <entry>MCP Tool</entry>
+                            <entry>Description</entry>
+                            <entry>Inputs</entry>
+                            <entry>Output</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Measure_applicationByIdQuery</entry>
+                            <entry>Retrieve details of a specific application</entry>
+                            <entry>id (application ID, required), loadChildren (Boolean), tenantId
+                                (required)</entry>
+                            <entry>Application details</entry>
+                        </row>
+                        <row>
+                            <entry>Measure_buildsQuery</entry>
+                            <entry>Fetch build information and history</entry>
+                            <entry>query: BuildTableQuery (category, filters: {tenantId, teamIds,
+                                tags, appIds, ...}, pagination, sort, ...)</entry>
+                            <entry>List of builds and their statuses</entry>
+                        </row>
+                        <row>
+                            <entry>Measure_deploymentsQuery</entry>
+                            <entry>Retrieve deployment data across environments</entry>
+                            <entry>query: DeploymentQuery (tenantId, teamIds, tags, appIds, ...,
+                                pagination, sort, ...)</entry>
+                            <entry>List of deployments</entry>
+                        </row>
+                        <row>
+                            <entry>Measure_latestWorkflowGateChecksQuery</entry>
+                            <entry>Get the latest workflow gate check results</entry>
+                            <entry>query: LatestWorkflowGatesQuery (workflowID)</entry>
+                            <entry>Gate evaluation results</entry>
+                        </row>
+                        <row>
+                            <entry>Measure_metricsQuery</entry>
+                            <entry>Access DevOps performance and delivery metrics</entry>
+                            <entry>query: MetricsChartQuery (groupBy, summarizationInterval,
+                                summarizationOperation, metricDefinition, filters, pagination, sort,
+                                ...)</entry>
+                            <entry>Metrics data</entry>
+                        </row>
+                        <row>
+                            <entry>Measure_teamsForCurrentUserQuery</entry>
+                            <entry>List teams associated with the authenticated user</entry>
+                            <entry>teamspaceId (optional)</entry>
+                            <entry>List of user’s teams</entry>
+                        </row>
+                        <row>
+                            <entry>Measure_teamspacesForTenantQuery</entry>
+                            <entry>Retrieve all teamspaces within the tenant</entry>
+                            <entry>externalOnly (Boolean), tenantId (required)</entry>
+                            <entry>List of teamspaces</entry>
+                        </row>
+                        <row>
+                            <entry>Measure_workflowQuery</entry>
+                            <entry>Fetch details of a specific workflow</entry>
+                            <entry>version (Int), workflowId (required)</entry>
+                            <entry>Workflow details</entry>
+                        </row>
+                        <row>
+                            <entry>Measure_workflowsForTenantQuery</entry>
+                            <entry>List all workflows configured in the tenant</entry>
+                            <entry>teamspaceId (optional), tenantId (required)</entry>
+                            <entry>List of workflows</entry>
+                        </row>
+                        <row>
+                            <entry>Measure_workflowStatsByIdQuery</entry>
+                            <entry>Retrieve workflow statistics and performance insights</entry>
+                            <entry>workflowId (required)</entry>
+                            <entry>Workflow statistics</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            
+        </section>
+        
+    </conbody>
+</concept>
